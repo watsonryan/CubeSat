@@ -1,0 +1,257 @@
+All information found at the following links
+
+
+http://www.nsf.gov/geo/ags/uars/cubesat/nsf-nasa-annual-report-cubesat-2013.pdf
+
+https://directory.eoportal.org/web/eoportal/satellite-missions/
+
+http://www.klofas.com/papers/klofas_nsf_comm_amsat2011.pdf
+
+
+
+NSF Funded Projects
+
+
+
+Basic Info
+
+	Since 2008, the Division of Atmospheric and Geospace Sciences at NSF has run a program
+        to support CubeSat-based Science Missions.
+
+	Launches are not part of the program but are provided by the DOD on a collaborative or 
+        reimbursable basis and by NASA through their Educational launch program (ELaNa).
+
+	Proposals are submitted to the program through an annual solicitation; based on scientific
+        and technical peer review one to two new projects are selected each year for implementation
+	out of a pool of roughly 25 proposals
+
+	So far, the program has carried out 4 competitions resulting in a total of 10 projects. 
+	Typically, the grants awarded are in the amount of $900,000 and of 3 years duration. Over 
+	the first 5 years of the program (2008 - 2012), the total funding in the program was just
+	below 10 million, including a one-time infusion of 2.8 million from the American Reinvestment
+	and Recovery Act in 2009.
+
+
+
+
+Funded Projects
+
+1) Radio Aurora Explorer (RAX)     (3U)   
+
+Overview------ The Radio Aurora eXplorer (RAX) 3U CubeSat from 
+               the University of Michigan and SRI International
+               measured small-scale plasma density irregularities
+               in the Earth's ionosphere.
+
+	University of Michigan
+		Launched December 2010 Through STP from Kodiak AK
+			Terminated due to malfunctioning solar panels
+
+				First NSF-sponsored CubeSat 
+
+    Radio Aurora Explorer 2 (RAX-2)       (3U)
+	 University of Michigan
+		 Launched October 2011 from Vandenberg Air Force Base 
+		 Through ElaNa 
+			 Completed 1-year science mission
+
+http://rax.engin.umich.edu/
+
+Publications: 
+		Magnetic aspect sensitivity of high-latitude E region irregularities measured by the RAX-2 CubeSat
+
+		Time keeping on the RAX Spacecraft
+
+		The Radio Aurora Explorer – A Mission Overview
+
+		Design and Implementation of the GPS Subsystem for the Radio Aurora Explorer
+
+		First measurements of radar coherent scatter by the Radio Aurora Explorer CubeSat
+
+		The attitude determination system of the RAX satellite
+
+		Attitude-Independent Magnetometer Calibration with Time-Varying Bias
+
+		Radio Aurora Explorer: Mission Science and Radar System
+
+		Radar and rocket comparison of UHF radar scattering from auroral electrojet irregularities: Implications for a nanosatellite radar
+
+
+
+2) Colorado Student Space Weather Experiment (CSSWE)           (3U)     
+
+Overview---- Measured the energetics of solar-produced 
+             relativistic electron and protons during 
+             periods of intense solar flare activity
+             and its impact on the Earth's outer radiation
+             belts
+
+
+	University of Colorado, Boulder
+		Launched September 13 2012 as secondary payload on an Atlas V 
+		Through ElaNa
+			Completed 90-day science mission
+
+http://lasp.colorado.edu/home/csswe/
+
+Publications:
+		The Colorado Student Space Weather Experiment (CSSWE) On-Orbit Performance
+
+		The Colorado Student Space Weather Experiment (CSSWE) On-Orbit Performance
+
+		Small Mission Accomplished by Students - Big Impact on Space Weather Research
+
+		Colorado Student Space Weather Experiment: Differential flux measurements of energetic particles in a highly inclined low Earth orbit, in Dynamics of the Earth’s Radiation Belts and Inner Magnetosphere
+
+		Small Space Weather Research Mission Designed Fully by Students
+
+		Characterization and Testing of an Energetic Particle Telescope for a CubeSat Platform
+
+		Conducting Science with a CubeSat: The Colorado Student Space Weather Experiment
+
+		REPTile: A Miniaturized Detector for a CubeSat Mission to Measure Relativistic Particles in Near-Earth Space
+
+		Passive Magnetic Attitude Control for CubeSat Spacecraft
+
+
+3) Dynamic Ionosphere CubeSat Experiment (DICE)              (2x1.5)
+
+Overview---- Measuring ionospheric density and electric 
+             field variability associated with the formation
+             of geomagnetic storm enhanced density plumes
+
+	Principle Investigator: Geoff Crowley  from ASTRA LLC
+	Deputy Principle Investigator: Charles Swenson form Utah State University
+	Program Manager: Chad Fish from Virginia Tech
+		Launched October 2011
+		Through ElaNa
+			Expected to stay in orbit for 15 years with goal of obtaining at least six months of scientific data
+
+http://astraspace.net/research-development/dicecubesat-mission/
+
+Publications:
+		
+		The Langmuir Probe Instrument on the DICE CubeSat
+
+		Dynamic Ionosphere Cubesat Experiment (DICE)
+
+		Modeling and Observations Of Storm Enhanced Densities in the Ionosphere During The March 17th, 2013 Geomagnetic Storm
+
+		Ionospheric Response to Geomagnetic Activity during March 2013
+
+		Design, Development, Implementation, and On orbit Performance of the Dynamic Ionosphere CubeSat Experiment Mission
+
+		DICE Mission Design, Development, and Implementations: Success and Challenges
+
+		An Extended Kalman Smoother for the DICE Mission Attitude Determination Post Processing with Double Electrical Field Probe Inclusion
+
+		The DICE Satellite Communications (Specifics of implementing high-speed communications on the DICE CubeSats)
+
+		Field-Aligned Current Observations using the Dynamic Ionosphere CubeSat Experiment (DICE) Body Mounted Magnetometer
+
+		Experimental Testing of the Accuracy of Attitude Determination Solutions for Spin-Stabilized Spacecraft
+
+		DICE Communications System Overview
+
+
+4) Firefly     (3U)
+
+Overview ---- Explored the causal links between ground lightning
+              and terrestrial gamma ray flashes, with associated
+              energetic electrons ejected from the atmosphere.
+
+	
+	
+	Siena College and Goddard Space Flight Center
+		Launched on Nov 19,2013 
+
+http://firefly.gsfc.nasa.gov/
+
+Publications:
+		The NSF Firefly CubeSat mission: Rideshare mission to study energetic electrons produced by lightning
+		
+
+
+5) Cubesat for Ions, Neutrals, Electrons and MAgnetic Fields (CINEMA)         (3U)
+
+Overview ---- Investigation of energetic ions, electrons, and neutrals and high
+              ecliptic latitude, and will map out strong geomagnetic currents and 
+              energetic neutral atoms associated with stormtime precipitation. 
+
+	University of California Berkley
+		Launched in September 2012
+		ELaNa-6
+
+http://www3.imperial.ac.uk/spat/research/missions/space_missions/cinema
+
+Publications:
+		CINEMA - CubeSat for Ions, Neutrals, Electrons, MAgnetic fields
+
+		CINEMA/TRIO: A three-spacecraft space weather CubeSat mission
+
+		Development of Cubesat for Space Science mission: CINEMA
+
+		CubeSat: CubeSat for Ions, Neutrals, Electron, and Magnetic Fields (CINEMA)
+
+		CINEMA/TRIO A three-spacecraft space weather CubeSat mission
+
+		
+
+
+6) Focused Investigations of Relativistic Electron Burst, Intensity, Range, and Dynamics (FIREBIRD)      (2 x 1.5)
+
+Overview ----  Investigate teh size, presistence, and energy dependence 
+	       of relativistic electron bursts from teh inner rdiation belts
+
+	University of New Hampshire
+	Montana State University
+		Launched on December 5,2013
+		ELaNa 2
+
+http://firebird.unh.edu/
+
+Publications:
+		Focused Investigations of Relativistic Electron Burst Intensity, Range, and Dynamics (FIREBIRD)
+
+		Overview: The Dual-CubeSat FIREBIRD Mission (Focused Investigations of Relativistic Electron Burst Intensity, Range, and Dynamics)
+
+		Focused Investigations of Relativistic Electron Burst Intensity, Range and Dynamics Space Weather Mission Global Positioning System
+
+		
+
+7) Composition Variations in the Exosphere, Thermosphere, and Topside Ionosphere (EXOCUBE)
+
+		Scientific Solutions Inc
+		Cal Poly
+		University of Wisconsin
+		GSFC
+			Expected to launch: October 2014
+
+http://www.sci-sol.com/Exocube-Oct2011.pdf
+
+
+
+8) CubeSat Investigating Atmospheric Density Response to Extreme Driving (CADRE)
+
+		University of Michigan
+		Naval Research Labs
+			Expected to launch: October 2014
+
+http://exploration.engin.umich.edu/blog/?page_id=961
+
+
+
+9) Oxygen Photometry ofthe Atmospheric Limb (OPAL)
+
+		Utah State University
+		University of Maryland
+		Dixie State College of Utah
+
+
+10) Lower Atmosphere-Ionosphere Coupling Experiment (LAICE)
+
+		Virginia Tech
+		University of Illinois
+		The Aerospace Corporation
+
+http://www.space.vt.edu/news/articles/RockSat-X_Payload.html

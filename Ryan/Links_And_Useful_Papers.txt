@@ -1,0 +1,31 @@
+Links To Useful Papers and Websites
+
+1) Frequency Allocation for Government-funded CubeSats
+	http://www.klofas.com/papers/klofas_nsf_comm_amsat2011.pdf
+
+2) 2013 NSF - NASA Annual Report on CubeSat
+	http://www.nsf.gov/geo/ags/uars/cubesat/nsf-nasa-annual-report-cubesat-2013.pdf
+
+3) list of cubesat missions
+	http://mtech.dk/thomsen/space/cubesat.php
+
+4) CubeSat Launch Initiative Selectees
+	http://www.nasa.gov/directorates/heo/home/CSLI_selections.html
+
+5) The Conference on Small Satellites
+	http://www.smallsat.org
+
+6) Clyde Space hardware  (40% of all CubeSate missions use)
+	http://www.clyde-space.com/cubesat_shop
+
+7) Imagine the Future: With CubeSats  (NSF Presentation)
+	http://gsaw.org/wp-content/uploads/2014/03/2014s13jorgensen.pdf
+
+8) eoPortal Directory  (A lot of information of CINEMA CubeSat)
+	https://directory.eoportal.org/web/eoportal/satellite-missions/c-missions/cinema
+
+9) The First One Hundred CubeSats: A Statistical Look
+	http://www.jossonline.com/downloads/0202%20The%20First%20One%20Hundred%20Cubesats.pdf
+
+10) List of CubeSat missions up to 5-20-2014
+	https://sites.google.com/a/slu.edu/swartwout/home/cubesat-database

@@ -1,0 +1,1413 @@
+ALL-STAR/THEIA
+
+
+Who is the team comprised of (NASA, DoD, NRL, university, private company, etc.) (foreign/ Domestic)?
+
+	University of Colorado, Boulder
+	Lockheed Maritn
+
+Who is sponsor/customer?
+
+	Colorado Space Grant Consortium
+
+Actual or proposed.  In-work or launched. Expected or actual launch date.
+
+	Actual
+	Launched
+	Launch date: April 18, 2014
+
+What is purpose of mission? (Helio-physics , Tech Demo, Atmospheric Science, etc.)
+
+	Tech Demo
+
+	THEIA is an Earth-imaging optical telescope payload built to test the capabilities of 
+	the ALLSTAR-1 Bus. 
+
+	aspire to develop a low-cost 3U CubeSat bus capable of supporting the 1 year on-orbit
+        operation of a variety of space-based research payloads that can be configured and 
+	ready for flight in 6 months through a simplified payload hardware and software 
+        interface.
+
+Outcome? (Worked, partial failure, no communication with it, couldn’t talk for first 10 days, etc.)
+
+	No communication
+	
+Cost/Budget? 
+
+	?
+
+Operating System
+
+	?
+
+Microcontroller / Computing HW
+
+	Atmel AT32UC3A3256S
+
+Payload sensors (GPS, IMU, magnetometer, etc.)
+
+	GPS: Novatel OEMV-1   Antenna: VTGPSIA-3 with built in LNA
+
+Orbit determination approach ( NORAD TLE, onboard propagator, GPS, etc.)
+
+	?
+
+Attitude Control (MAI-200, MAI-400, passive, active, spinning, gravity gradient)
+
+	3-axis magnetometer,
+	star tracker
+	gyroscopes
+
+	ADCS microcontroller: AVR32UC3
+	
+Size (1U, 3U, 6U), More than one cubesat?
+
+	3U
+
+Overall Mass ( was it beyond CubeSat spec of 1.33Kg/U, etc.)
+
+	4 Kg
+
+Launch provider (NASA CSLI, from ISS, etc.) / Launch vehicle
+
+	NASA's ELaNa-5
+	Manifeted on the CRS-3 mission to the ISS on a Falcon 9 V1.1
+
+Deployer ( P-Pod?)
+
+	P-Pod
+
+Orbit ( Polar, what inclination, altitude, etc.)
+
+	Near-circlar orbit, 
+	altitude of ~350 - 400 km
+	inclination = 51.6
+	period = 91 minutes
+
+Expected Lifetime / Actual Lifetime (10 days, 3-months, 6-months)
+
+	1 year
+
+Onboard communications hardware (L3 Cadet, etc.)
+
+Comms frequency used ( Hamm band, 468 Mhz?,)
+
+	S-band (2.41 GHz)
+	downline with a data rate of 250 kbit/sec
+	uplink is in UHF (435) with a data rate of 9.6 kbit/sec
+
+Comms ground station ( NASA WFF, Stanford Labs, SDL, university, multiple sites, etc.)
+
+	The ground station is operated by the students at the University of Colorado, Boulder.
+	Located near Longmont,CO.
+
+	The station consists of a 3 m parabolic dish with a small circularly polarized patch 
+        antenna feed at the focus for the S-band link (satellite to ground) and a 1 m 
+ 	circularly polarized Yagi antenna mounted to the top of the dish for the UHF link 
+	(ground to satellite)
+
+Special features ( deployable solar panels, deployable antenna, etc.)
+
+	Deployable solar panels ( 918 Solar Cells, cell efficiency of 27% )
+	
+	THEIA (Telescopic High-definition Earth Imaging Apparatus)
+
+
+
+
+References:
+
+
+1) “Colorado Space Grant Consortium, Lockheed Martin To Develop CubeSat,” Lockheed Martin, Aug. 10, 2010, URL: http://www.lockheedmartin.com/us/news/press-releases/2010/august/ColoradoSpaceGrantConsort.html
+
+2) Jessica Brown, Mark Wolfson, “Hands-on education through student-industry partnerships,” 2013, URL: http://www.amostech.com/TechnicalPapers/2013/POSTER/WOLFSON.pdf
+
+3) http://spacegrant.colorado.edu/images/AllStar/Story%20Board.pdf
+
+4) http://spacegrant.colorado.edu/boulderstudents/boulderprojects/allstar
+
+5) Jessica Brown, Riley Pack, Tyler Murphy, Ryan Kophs, “Systems and Management Backup Documentation,” ALL-STAR System Requirements, SYS.200.2, Jan. 3, 2011
+
+6) Tyler Murphy, Jon Kanaber, Chris Koehler, “PEZ: Expanding CubeSat Capabilities through Innovative Mechanism Design,” Proceedings of the 25th Annual AIAA/USU Conference on Small Satellites, Logan, UT, USA, Aug. 8-11, 2011, paper: SSC11-XII-5, URL of paper: http://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=1179&context=smallsat, URL of presentation: http://digitalcommons.usu.edu/cgi/viewcontent.cgi?filename=0&article=1179&context=smallsat&type=additional
+
+7) Jessica Brown, Riley Pack, Tyler Murphy, Ryan Kophs, “Systems and Management,” Critical Design Review Slides
+
+8) Simon Hodgson, Jon Kanaber, Matt Gosche, “Structures and Mechanisms,” Critical Design Review Slides
+
+9) Isaac Hayden, “STR Overview,” URL: http://spacegrant.colorado.edu/images/AllStar/STR.pdf
+
+10) Jessica Brown, “ALL-STAR Microgravity Structural Deployment and Attitude Control Test,” COSGC, Oct. 27, 2010, URL: http://spacegrant.colorado.edu/images/stories/ALL-STAR/ALL-STAR_Microgravity_Proposal.pdf
+
+11) “ALL-STAR System Integration Review,” COSGC, April 19, 2013, URL: http://spacegrant.colorado.edu/images/AllStar/ALLSTAR_SIR_Slides.pdf
+
+12) http://www.nasa.gov/mission_pages/station/structure/launch/#.U1ZuzaKegkB
+
+13) SpaceX Launch to Space Station Reset for March 30, NASA, March 21, 2014, URL: http://www.nasa.gov/mission_pages/station/structure/launch/#.UwS1s87ihqP
+
+14) “NASA Press Kit, March 2014, SpaceX CRS-3 Mission,” NASA, URL: http://www.nasa.gov/sites/default/files/files/SpaceXCRS-3_PressKit_FINAL.pdf
+
+15) Patrick Blau, “Dragon SpX-3 Cargo Overview,” Spaceflight 101, URL: http://www.spaceflight101.com/dragon-spx-3-cargo-overview.html
+
+16) “ELaNa V CubeSat Launch on SpaceX-3 Mission,” NASA Facts, March 2014, URL: http://www.nasa.gov/sites/default/files/files/ELaNa-V-Factsheet-508.pdf
+
+17) Christopher Koehler, Scott Palo, Herbert Kroehl, Jean Koster, Russ Mellon, Peter Bradley, Jessica Brown, Justin Clark, Nicole Doyle, Kyle Florentine, Kyle Kemble, Carolyn Maurus, Jennifer McGraw, Brian Roth, Malcolm Young, “Telescopic High-definition Earth Imaging Apparatus (THEIA),” Project Final Report (PFR), April 28th, 2010
+
+18) “Telescopic High-definition Earth Imaging Apparatus (THEIA), Conceptual Design Document,” University of Colorado, Sept. 23, 2010
+
+19) “Telescopic High-definition Earth Imaging Apparatus,” CDR (Critical Design Review), Dec. 1, 2010
+
+20) “THEIA - Telescopic High-definition Earth Imaging Apparatus,” Project Definition Document (PDD), Sept. 9, 2010
+
+21) “An Athermal System Design to Improve Optical Performance across a Mission Profile,” April 9, 2011
+
+22) ALL-STAR Ground Station Overview, Revised July 31, 2013, URL: http://spacegrant.colorado.edu/images/AllStar/GndStationOverview.pdf
+
+23) Quinn McGehan, Michael Mozingo, Megan O’Sullivan, Michael Trowbridge, “A Distributed Common Ground Segment for Educational Nanosatellites,” 2012 COSGC Space Research Symposium, April 19, 2012, URL: http://spacegrant.colorado.edu/COSGC_Projects/symposium/2012/07_Distributed%20Ground%20Segment.pdf
+
+24) Vignesh Muralidharan, Michael Trowbridge, Quinn McGehan, Bill Irelan, Logan Smith, “Strategies for rapid design and development of ALL-STAR-1 ground segment,” 10th Annual CubeSat Developers’ Workshop 2013, Cal Poly, San Luis Obispo, April 24-26, 2013, URL: http://mstl.atl.calpoly.edu/~bklofas/Presentations/DevelopersWorkshop2013/Muralidharan_ALLSTAR-1.pdf 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARMADILLO
+
+
+
+Who is the team comprised of (NASA, DoD, NRL, university, private company, etc.) (foreign/ Domestic)?
+
+	University of Texas at Austin
+	Baylor Univeryisty
+
+Who is sponsor/customer?
+
+
+Actual or proposed.  In-work or launched. Expected or actual launch date.
+
+	Actual 
+	In-work
+	2015
+
+What is purpose of mission? (Helio-physics , Tech Demo, Atmospheric Science, etc.)
+
+	Technology Demo
+
+	1) Characterize in-situ sub-millimeter level dust and debris particles in LEO 
+	   (Low Earth Orbit) by sensing impacts at varying times, directions and locations
+
+	2) Demonstrate ionospheric radio-occultation within a single CubeSat volume 
+	   (10 cm x 10 cm x 10 cm) using a software-defined dual frequency GPS receiver
+
+	3) Train students in best systems engineering practices by executing a complete 
+	   spacecraft life cycle from concept design to mission operations.
+
+Outcome? (Worked, partial failure, no communication with it, couldn’t talk for first 10 days, etc.)
+
+	?
+
+Cost/Budget? 
+
+	?
+
+Operating System
+
+	?
+
+Microcontroller / Computing HW
+
+	Phytec phyCORE-LPC3250 SOM
+
+Payload sensors (GPS, IMU, magnetometer, etc.)
+
+	FOTON -- spaceborne, dual-frequency, software-defined compact GPS reciever
+	Star Tracker
+	S-band radio
+	PDD (Piezo Dust Detector)
+
+Orbit determination approach ( NORAD TLE, onboard propagator, GPS, etc.)
+
+	GPS
+	"The ionosphere-corrected range measurement allows POD (Preise Orbit Determination)
+	 of the spacecraft to centimeter level"
+
+Attitude Control (MAI-200, MAI-400, passive, active, spinning, gravity gradient)
+
+	3 gyroscopes
+	2 sun sensors
+	1 magnetometer (Honeywell HMR2300)
+	3 Reaction Wheels for pointing control
+	2 magnetic torque rods 
+	Cold-gas thruster allows for small translational impulses
+	
+Size (1U, 3U, 6U), More than one cubesat?
+
+	3U
+
+Overall Mass ( was it beyond CubeSat spec of 1.33Kg/U, etc.)
+
+	4 Kg
+
+Launch provider (NASA CSLI, from ISS, etc.) / Launch vehicle
+
+	?
+	
+Deployer ( P-Pod?)
+
+	?
+
+Orbit ( Polar, what inclination, altitude, etc.)
+
+	"Will be provided when available"  https://directory.eoportal.org/web/eoportal/satellite-missions/a/armadillo
+
+Expected Lifetime / Actual Lifetime (10 days, 3-months, 6-months)
+
+	?
+
+Onboard communications hardware (L3 Cadet, etc.)
+
+	AstroDev Helium-100 UHF/VHF radio
+	ClydeSpace CS-CPUT-STX-01 S-band transmitter
+	ISIS deployable CDUV antenna
+	Taoglas WLP.2450.24.4.A.02
+
+Comms frequency used ( Hamm band, 468 Mhz?,)
+
+
+Comms ground station ( NASA WFF, Stanford Labs, SDL, university, multiple sites, etc.)
+
+
+Special features ( deployable solar panels, deployable antenna, etc.)
+
+
+
+
+References:
+
+1) “ARMADILLO,” UTA, URL: http://armadillo.ae.utexas.edu/index.php?option=com_content&view=category&layout=blog&id=7&Itemid=14
+
+2) “ARMADILLO- System Concept Review, February 24, 2011, URL: http://armadillo.ae.utexas.edu/images/stories/pdffiles/sys199-scr_charts_texas_webopt.pdf
+
+3) “ARMADILLO Mission Overview,” UTA, March 6, 2012, URL: http://armadillo.ae.utexas.edu/images/stories/pdffiles/sys199-cdr_mission_overview.pdf
+
+4) Christopher Ryan McBryde, E. Glenn Lightsey, “A Star Tracker Design for CubeSats,” Proceedings of the 2012 IEEE Aerospace Conference, Big Sky, Montana, USA, March 3-10, 2012
+
+5) “Structures and Integration (STR),” UTA, March 6, 2012, URL: http://armadillo.ae.utexas.edu/images/stories/pdffiles/sys199-cdr_str.pdf
+
+6) Henri Christian Kjellberg, E. Glenn Lightsey, “A Constrained Attitude Control Module for Small Satellites,” Proceedings of the 26th Annual AIAA/USU Conference on Small Satellites, Logan, Utah, USA, August 13-16, 2012, paper: SSC12-III-7
+
+7) Henri Christian Kjellberg, “Design of a CubeSat Guidance, Navigation, and Control Module,” Master Thesis at UTA, August 2011, URL: http://repositories.lib.utexas.edu/bitstream/handle/2152/ETD-UT-2011-08-3924/KJELLBERG-THESIS.pdf?sequence=1
+
+8) “CubeSat Attitude Determination and Control Module,” UTA, March 6, 2012, URL: http://armadillo.ae.utexas.edu/images/stories/pdffiles/sys199-cdr_adc.pdf
+
+9) S. Arestie, E. G. Lightsey, B. Hudson, “Development of A Modular, Cold Gas Propulsion System for Small Satellite Applications,” 2012, URL: http://lightsey.ae.utexas.edu/publications/development-of-a-modular-cold-gas-propulsion-system-for-small-satellite-applications/
+
+10) “Command and Data Handling – ‘The Brains of the Operation’,” UTA, March 6, 2012, URL: http://armadillo.ae.utexas.edu/images/stories/pdffiles/sys199-cdr_cdhb.pdf
+
+11) “Electrical Power System- EPS, UTA, March 6, 2012, URL: http://armadillo.ae.utexas.edu/images/stories/pdffiles/sys199-cdr_eps.pdf
+
+12) “Communications,” March 6, 2012, UTA, URL: http://armadillo.ae.utexas.edu/images/stories/pdffiles/sys199-cdr_com.pdf
+
+13) “Payload: FOTON, PDD,” UTA, March 6, 2012, URL: http://armadillo.ae.utexas.edu/images/stories/pdffiles/sys199-cdr_payload.pdf
+
+14) Katharine M. Brumbaugh, Henri C. Kjellberg, E. Glenn Lightsey, Alexander Wolf, Rene Laufer, “In-situ sub-millimeter space debris detection using CubeSats,” 35th Annual AAS (American Astronautical Society) Guidance & Control Conference, Breckenridge, Co. Feb. 3-8, 2012, AAS 12-001, URL: http://armadillo.ae.utexas.edu/images/stories/pdffiles/publications/aas%2012-001_brumbaugh.pdf
+
+15) Alexander Wolf, Rene Laufer, Ralf Srama, Georg Herdrich, E. Glenn Lightsey, Carsten Wiedemann, Truell W. Hyde, Hans-Peter Röser, “A modular, miniaturized, low-mass in-situ dust detector for piggyback payload opportunities on small spacecraft, landers and rovers,” Proceedings of the 63rd IAC (International Astronautical Congress), Naples, Italy, Oct. 1-5, 2012, paper: IAC-12-B4.8.8
+
+16) A. Wolf, R. Laufer, G. Lightsey, G. Herdrich, R. Srama, H.-P. Röser, T. W. Hyde, “Piezo Dust Detector (PDD) - A modular miniaturized in-situ measurement instrument for dust research,” 43rd Lunar and Planetary Science Conference , The Woodlands, TX, USA, March 19-23, 2012, URL: http://www.lpi.usra.edu/meetings/lpsc2012/pdf/2136.pdf
+
+17) “ARMADILLO: Fast, Orbital, TEC, Observables, and Navigation (FOTON) Receiver,” UTA, March 6, 2012, URL: http://armadillo.ae.utexas.edu/images/stories/pdffiles/sys199-cdr_foton.pdf
+
+18) Andrew J. Joplin, E. Glenn Lightsey, Todd E. Humphreys, “Development and Testing of a Miniaturized, Dual-Frequency, Software-Defined GPS Receiver for Space Applications,” UTA Radionavigation Laboratory, Proceedings of ION ITM, Newport Beach, California, 2012, Feb. 1, 2012, URL: http://radionavlab.ae.utexas.edu/images/stories/files/presentations/joplin_C4_pres.pdf
+
+19) http://armadillo.ae.utexas.edu/index.php?option=com_content&view=article&id=14:foton&catid=7:mission&Itemid=15
+
+20) Andrew Jonathan Joplin, “Development and Testing of a Miniaturized, Dual-Frequency, Software-Defined GPS Receiver for Space Applications,” Master Thesis at UTA, Dec. 2011, URL: http://radionavlab.ae.utexas.edu/images/stories/files/papers/joplin_thesis_20119.pdf
+
+21) Andrew J. Joplin, E. Glenn Lightsey, Todd E. Humphreys, “Development and Testing of a Miniaturized, Dual-Frequency GPS Receiver for Space Applications,” 2012, URL: http://radionavlab.ae.utexas.edu/images/stories/files/papers/joplin_itm_2012.pdf
+
+22) “Dual Frequency Reprogrammable Software-Defined GPS Receiver for CubeSats,” UTA, URL: http://austinsat.net/datasheets/FOTON%20Spec%20Shet%20rev3.pdf
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RAX - 2   (Radio Aurora Explorere - 2)
+
+
+
+
+Who is the team comprised of (NASA, DoD, NRL, university, private company, etc.) (foreign/ Domestic)?
+
+	University of Michigan
+	SRI International
+
+Who is sponsor/customer?
+
+	NSF
+
+Actual or proposed.  In-work or launched. Expected or actual launch date.
+
+	Actual
+	Launched
+	October 28,2010
+
+What is purpose of mission? (Helio-physics , Tech Demo, Atmospheric Science, etc.)
+
+	RAX is a space weather mission designed to study plasma field-aligned 
+	irregularities in the ionosphere
+
+Outcome? (Worked, partial failure, no communication with it, couldn’t talk for first 10 days, etc.)
+
+	Worked
+
+Cost/Budget? 
+
+	roughly $900,000 over three years from NSF
+
+Operating System
+
+	?
+
+Microcontroller / Computing HW
+
+	MSP 430 - based flight computer (developed at SRI)
+	Instrument data processing with a PXA270 (520 MHz)
+	FPGA-based instrument data collection
+	8GB of storage
+
+Payload sensors (GPS, IMU, magnetometer, etc.)
+
+	Novetal (OVEM-1)
+
+Orbit determination approach ( NORAD TLE, onboard propagator, GPS, etc.)
+
+	
+
+Attitude Control (MAI-200, MAI-400, passive, active, spinning, gravity gradient)
+
+	Passive magnetic system developed at UMich
+
+	2 three axis and 4 dual axis magnetometers
+	6 Sun Sensors
+	Three axis gyroscope
+	GPS Recevier (Novatel OEMV-1)
+	
+Size (1U, 3U, 6U), More than one cubesat?
+
+	3U
+
+Overall Mass ( was it beyond CubeSat spec of 1.33Kg/U, etc.)
+
+	~3 Kg
+
+Launch provider (NASA CSLI, from ISS, etc.) / Launch vehicle
+
+	ELaNA 3
+	Delta-7920-10C
+	
+Deployer ( P-Pod?)
+
+	P-Pod
+
+Orbit ( Polar, what inclination, altitude, etc.)
+
+	Sun-synchronous near-circular polar orbit
+	altitude = 824 km
+	inclination = 98.7
+	period = 101 minutes
+
+Expected Lifetime / Actual Lifetime (10 days, 3-months, 6-months)
+
+	1 year
+
+Onboard communications hardware (L3 Cadet, etc.)
+
+	Primary radio: Astronautical Development Lithium-1 (UHF, GMSK, 9600 bit/s)
+	Secondary: Microhard MHX2400 (S-band, up to 83 kbit/s)
+
+Comms frequency used ( Hamm band, 468 Mhz?,)
+
+
+Comms ground station ( NASA WFF, Stanford Labs, SDL, university, multiple sites, etc.)
+
+	NASA WFF
+
+Special features ( deployable solar panels, deployable antenna, etc.)
+
+
+
+
+References:
+
+
+1) Sara C. Spangelo, James Cutler, Louise Anderson, Elyse Fosse, Leo Cheng, Rose Yntema, Manas Bajaj, Chris Delp, Bjorn Cole, Grant Soremekum, David Kaslow, “Model Based Systems Engineering (MBSE) Applied to Radio Aurora Explorer (RAX) CubeSat Mission Operational Scenarios,IEEEAC Paper #2170, Version 1, Updated 29/01/2013, ” URL: http://www.omgsysml.org/mbse_cubesat_v1-2013_ieee_aero_conf.pdf
+
+2) Sara C Spangelo, David Kaslow, Chris Delp, Bjorn Cole, Louise Anderson, Elyse Fosse, Brett Sam Gilbert, Leo Hartman, Theodore Kahn, James Cutler, “Applying Model Based Systems Engineering (MBSE) to a Standard CubeSat,” Proceedings of the 2012 IEEE Aerospace Conference, Big Sky, Montana, USA, March 3-10, 2012, URL: http://www.omgsysml.org/mbse_cubesat_v1-2012_ieee_aero_confr.pdf
+
+3) John C. Springmann, James W. Cutler, Hasan Bahcivan, “Initial Flight Results of the Radio Aurora Explorer,” Proceedings of IAC 2011 (62nd International Astronautical Congress), Cape Town, South Africa, Oct. 3-7, 2011, IAC-11.B4.4.5, URL: http://rax.engin.umich.edu/wp-content/uploads/files/IAC_2011_JSpringmann.pdf
+
+4) James W. Cutler, John C. Springmann, Sara Spangelo, Hasan Bahcivan, “Initial Flight Assessment of the Radio Aurora Explorer,”Proceedings of the 25th Annual AIAA/USU Conference on Small Satellites, Logan, UT, USA, Aug. 8-11, 2011, paper: SSC11-VI-6, URL: http://rax.engin.umich.edu/wp-content/uploads/2011/08/SSC11-VI-6.pdf
+
+5) John C. Springmann, Alexander J. Sloboda, Andrew T. Klesh, Matthew W. Bennett, James W. Cutler, “The attitude determination system of the RAX satellite,” Acta Astronautica, June–July 2012, Pages 120–135
+
+6) John C. Springmann, James W. Cutler, “Photodiode Placement & Algorithms for CubeSat Attitude Determination,” 9th Annual Spring CubeSat Developer's Workshop, Cal Poly State University, San Luis Obispo, CA, USA, April 18-20, 2012, URL: http://mstl.atl.calpoly.edu/~bklofas/Presentations/DevelopersWorkshop2012-Springmann_Photodiode_Determination.pdf
+
+7) “Li-1 Radio,” Astronautical Development, LLC, URL: http://www.astrodev.com/public_html2/downloads/datasheet/Lithium-UserManual.pdf
+
+8) James W. Cutler, John Springmann, “RAX-2 On-Orbit Communication Performance,” 9th Annual Spring CubeSat Developer's Workshop, Cal Poly State University, San Luis Obispo, CA, USA, April 18-20, 2012, URL: http://mstl.atl.calpoly.edu/~bklofas/Presentations/Developers-Workshop2012/CHDC_Cutler_RAX-2.pdf
+
+9) “CubeSat ELaNa III Launch on NPP Mission,” NASA, October 2011, URL: http://www.nasa.gov/pdf/598567main_65121-2011-CA000-NPP_CubeSat_Factsheet_FINAL.pdf
+
+10) Information provided by Andrew Kelsh of the University of Michigan.
+
+11) H. Bahcivan, J. W. Cutler, J. C. Springmann, R. Doe, M. J. Nicolls, “Magnetic aspect sensitivity of high-latitude E region irregularities measured by the RAX-2 CubeSat,” Journal of Geophysical Research: Space Physics, Article first published online: 12 Feb. 2014, DOI: 10.1002/2013JA019547
+
+12) “Updates from the dish,” University of Michigan, July 1, 2013, URL: http://rax.engin.umich.edu/?p=2327
+
+13) “RAX updates, June 2013,” UMich, June 12, 2013, URL: http://rax.engin.umich.edu/?p=2306
+
+14) John Springmann, “Resolute echoes detected,” June 13, 2012, URL: http://rax.engin.umich.edu/?cat=1
+
+15) RAX-2 status reports in “Uncategorized,” URL: http://rax.engin.umich.edu/?page_id=98
+
+16) Allison Craddock, “200 Days On Orbit,” May 15, 2012, URL: http://rax.engin.umich.edu/?p=2002
+
+17) John C. Springmann, Benjamin P. Kempke, James W. Cutler, “Initial Flight Results of the RAX-2 Satellite,” Proceedings of the 26th Annual AIAA/USU Conference on Small Satellites, Logan, Utah, USA, August 13-16, 2012, paper: SSC12-XI-5
+
+18) John Springmann, James Cutler, Hasan Bahcivan, “On-Orbit Performance of the RAX-2 CubeSat,” 9th Annual Spring CubeSat Developer's Workshop, Cal Poly State University, San Luis Obispo, CA, USA, April 18-20, 2012, URL: http://mstl.atl.calpoly.edu/~bklofas/Presentations/DevelopersWorkshop2012/Springmann_RAX-2_Performance.pdf
+
+19) RAX-2 Status History, URL: http://rax.engin.umich.edu/?page_id=138
+
+20) John C. Springmann, Benjamin P. Kempke, James W. Cutler, Hasan Bahcivan, “Development and initial operations of the RAX-2 CubeSat,” Proceedings of the 4S (Small Satellites Systems and Services) Symposium, Portoroz, Slovenia, June 4-8, 2012
+
+21) James Cutler, “S-band Success,” April 24, 2012, URL: http://rax.engin.umich.edu/?p=1954
+
+22) John Springmann, “RAX press release,” March 26, 2012, URL: http://rax.engin.umich.edu/?p=1906
+
+23) John Springmann, “RAX-2 Update — 06 Dec 2011,” URL: http://rax.engin.umich.edu/?p=1646
+
+24) Hasan Bahcivan, James Cutler, “Radio Aurora Explorer: Investigating ionospheric turbulence response to magnetospheric forcing,” 91st AMS (American Meteorological Society) Annual Meeting, Seattle, WA, January 23-27, 2011, URL: http://ams.confex.com/ams/91Annual/webprogram/Paper179924.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSSWE (Colorado Student Space Weather Experiment)
+
+
+
+Who is the team comprised of (NASA, DoD, NRL, university, private company, etc.) (foreign/ Domestic)?
+
+	University of Colorado, Boulder
+
+Who is sponsor/customer?
+
+	NSF
+
+Actual or proposed.  In-work or launched. Expected or actual launch date.
+
+	Actual
+	Launched
+	September 13, 2012
+
+
+What is purpose of mission? (Helio-physics , Tech Demo, Atmospheric Science, etc.)
+
+	The objective of the science mission is to address fundamental questions pertaining 
+	to the relationship between solar flares and energetic particles.
+
+	Helio-physics
+
+Outcome? (Worked, partial failure, no communication with it, couldn’t talk for first 10 days, etc.)
+
+	Worked
+
+Cost/Budget? 
+
+	Roughly 900,000 over three years from the NSF
+
+Operating System
+
+	Pumpkin  (Salvo Pro RTOS)
+	http://www.pumpkininc.com/
+
+Microcontroller / Computing HW
+
+	Ti --- MSP430F2618
+	http://www.ti.com/product/msp430f2618
+
+Payload sensors (GPS, IMU, magnetometer, etc.)
+
+	HMC5843 3-axis magnetometer
+
+Orbit determination approach ( NORAD TLE, onboard propagator, GPS, etc.)
+	
+
+Attitude Control (MAI-200, MAI-400, passive, active, spinning, gravity gradient)
+
+	Passive Magnetic Attitude Control
+
+	The subsystem consists of a permanent bar magnet in combination with hysteresis rods.
+        The bar magnet interacts with the local magnetic field to torque the spacecraft toward 
+	the local magnetic field direction. As the spacecraft progresses in its orbit, the 
+	local magnetic field induces a changing magnetic moment in the hysteresis rods.
+	
+Size (1U, 3U, 6U), More than one cubesat?
+
+	3U
+
+Overall Mass ( was it beyond CubeSat spec of 1.33Kg/U, etc.)
+
+	4 Kg
+
+Launch provider (NASA CSLI, from ISS, etc.) / Launch vehicle
+
+	ELaNa - 6
+	Launch Vehicle: Atlas-5-411,     Launch Site: VAFB, CA
+	
+Deployer ( P-Pod?)
+
+	P-Pod
+
+Orbit ( Polar, what inclination, altitude, etc.)
+
+	Elliptical orbit of 790x490 km
+	inclination = 65
+
+Expected Lifetime / Actual Lifetime (10 days, 3-months, 6-months)
+
+	90 - Days
+
+Onboard communications hardware (L3 Cadet, etc.)
+
+	
+
+Comms frequency used ( Hamm band, 468 Mhz?,)
+
+	433 MHz
+
+Comms ground station ( NASA WFF, Stanford Labs, SDL, university, multiple sites, etc.)
+
+	The ground station antenna is a M2 MCP436CP30 cross polarized 42 element yagi 
+	antenna with a gain of 14.15dBdc.
+
+Special features ( deployable solar panels, deployable antenna, etc.)
+
+	REPTile (Relativistic Electron and Proton Telescope integrated little experiment)
+
+	It measures the outer belt electrons, both trapped and precipitating to study how the
+        low rate and energy spectrum of the Earth's outer radiation belt electrons evolves.
+
+
+References:
+
+
+1) Scott Palo, Xinlin Li, David Gerhardt, Drew Turner, Rick Kohnert, Vaughn Hoxie, Susan Batiste, “Conducting Science with a CubeSat: The Colorado Student Space Weather Experiment,” Proceedings of the 24th Annual AIAA/USU Conference on Small Satellites, Logan, UT, USA, Aug. 9-12, 2010, SSC10-XII-8, URL: http://lasp.colorado.edu/home/csswe/files/2012/06/SSC10-XII-8-1.pdf
+
+2) “CU Students to Build Tiny Spacecraft to Observe 'Space Weather' Environment,” December 29, 2009, URL: http://www.colorado.edu/news/r/e8d70dd6a33ec62c048d324c42a84172.html
+
+3) “CSSWE - Colorado Student Space Weather Experiment,” URL: http://lasp.colorado.edu/home/csswe/overview/
+
+4) CSSWE homepage, URL: http://lasp.colorado.edu/home/csswe/
+
+5) Muralikrishna Nallamothu, David Gerhardt, Drew Turner, “The Colorado Student Space Weather Experiment (CSSWE) - Command & Data Handling,” 2010 Summer CubeSat Developer’s Workshop, Logan,Utah, August 8, 2010, URL: http://mstl.atl.calpoly.edu/~bklofas/Presentations/SummerWorkshop2010/Nallamothu-CSSWE.pdf
+
+6) Xinlin Li, Scott Palo, Shri Kanekal, Rick Kohnert, Gail Tate, Vaughn Hoxie, David Gerhardt, Lauren Blum, Quintin Schiller, “The Colorado Student Space Weather Experiment (CSSWE) - CSSWE COM System,” 9th Annual Spring CubeSat Developer's Workshop, Cal Poly State University, San Luis Obispo, CA, USA, April 18-20, 2012, URL: http://mstl.atl.calpoly.edu/~bklofas/Presentations/DevelopersWorkshop2012/CHDC_CSSWE.pdf
+
+7) Xinlin Li, Scott Palo, Rick Kohnert, David Gerhardt, Lauren Blum, Quintin Schiller, Drew Turner, Weichao Tu, Nathan Sheiko, Christopher S. Cooper, “Colorado Student Space Weather Experiment: Differential flux measurements of energetic particles in a highly inclined low Earth orbit,” Dynamics of the Earth’s Radiation Belts and Inner Magnetosphere, Geophysical Monograph Series, Vol. 199, edited by D. Summers et al., pp. 385-404, 2012, AGU, Washington, D. C., doi:10.1029/2012GM001313.
+
+8) “2012 in Spaceflight,” Wikipedia, URL: http://en.wikipedia.org/wiki/2012_in_spaceflight
+
+9) “Atlas V launches on classified Flight to orbit NROL-36 Payload,” Spaceflight 101, Sept. 14, 2012, URL: http://www.spaceflight101.com/nrol-36-launch-updates.html
+
+10) Travis Willcox, “Office of Space Launch Atlas V Aft Bulkhead Carrier& Operationally Unique Technologies Satellite,” 8th Annual CubeSat Developers’ Workshop, CalPoly, San Luis Obispo, CA, USA, April 20-22, 2011, URL: http://mstl.atl.calpoly.edu/~bklofas/Presentations/DevelopersWorkshop2011/24_Willcox_ABC.pdf
+
+11) Garret Skrobot, “ELaNA - Educational Launch of Nanosatellite,” 8th Annual CubeSat Developers’ Workshop, CalPoly, San Luis Obispo, CA, USA, April 20-22, 2011, URL: http://mstl.atl.calpoly.edu/~bklofas/Presentations/DevelopersWorkshop2011/21_Skrobot_ELaNa.pdf
+
+12) Guy Mathewson, “2012 CubeSat Workshop, OSL’s Vision & Mission,” 9th Annual Spring CubeSat Developer's Workshop, Cal Poly State University, San Luis Obispo, CA, USA, April 18-20, 2012, URL: http://mstl.atl.calpoly.edu/~bklofas/Presentations/DevelopersWorkshop2012/Mathewson.pdf
+
+13) Travis Willcox, “Office of Space Launch Atlas V Aft Bulkhead Carrier & Operationally Unique Technologies Satellite,” 9th Annual Spring CubeSat Developer's Workshop, Cal Poly State University, San Luis Obispo, CA, USA, April 18-20, 2012, URL: http://mstl.atl.calpoly.edu/~bklofas/Presentations/DevelopersWorkshop2012/Keynote_Willcox.pdf
+
+14) Information provided by James Mason, PhD candidate at the University of Colorado/LASP, Boulder, CO.
+
+15) Information provided by Xinlin Li, PI (Principal Investigator) of the CSSWE project at LASP (Laboratory for Atmospheric and Space Physics) of CU-Boulder.
+
+16) Xinlin Li, Scott Palo, Rick Kohnert, Lauren Blum, David Gerhardt, Quintin Schiller, Sam Califf, “Small Mission Accomplished by Students—Big Impact on Space Weather Research,” Space Weather, Vol. 11, No 1-2, doi:10.1002/swe.20025, 2013, URL: http://lasp.colorado.edu/~lix/paper/SW/13/Li-CubeSat.pdf
+
+17) “Student-built satellite studies solar storms,” LASP Space Newsletter, Issue 2, Feb. 2013, URL: http://lasp.colorado.edu/home/wp-content/uploads/2013/02/LASPSPACE_issue2.pdf
+
+18) http://lasp.colorado.edu/home/csswe/data/
+
+19) “First Results Debuted at AGU,” CU-Boulder, Dec. 13, 2012, URL: http://lasp.colorado.edu/home/csswe/2012/12/13/first-results-debuted-at-agu/
+
+20) Xinlin Li, S. E. Palo, R. Kohnert, D. Gerhardt, L. W. Blum, Q. Schiller, D. L. Turner, W. Tu, “First Results from Colorado Student Space Weather Experiment (CSSWE): Differential Flux Measurements of Energetic Particles in a Highly Inclined Low Earth Orbit,” AGU Fall Meeting, San Francisco, CA, December 3-7, 2012
+
+21) “3 weeks of science data,” CU-Boulder, October 26, 2012, URL: http://lasp.colorado.edu/home/csswe/2012/10/26/3-weeks-of-science-data/
+
+22) “On Orbit: Week Three – Entering Science Mode,” CU-Boulder, Oct. 4, 2012, URL: http://lasp.colorado.edu/home/csswe/2012/10/04/on-orbit-week-three-entering-science-mode/
+
+23) “First Beacons Received,” CU-Boulder, Sept. 14, 2012, URL: http://lasp.colorado.edu/home/csswe/2012/09/14/first-beacons-received/
+
+24) Quintin G. Schiller, Abhishek Mahendrakumar, Xinlin Li, “REPTile: A Miniaturized Detector for a CubeSat Mission to Measure Relativistic Particles in Near-Earth Space,” Proceedings of the 24th Annual AIAA/USU Conference on Small Satellites, Logan, UT, USA, Aug. 9-12, 2010, paper: SSC10-VIII-1, URL: http://lasp.colorado.edu/home/csswe/files/2012/06/Schiller-and-Mahendrakumar.pdf
+
+25) S. E. Palo, X. Li, D. L. Turner, D. Gerhardt, R. Myers, T. Redick, J. Tao, “REPTile: A relativistic electron and proton detector small enough to meet CubeSat requirements,” VKI (Von Karman Institute for Fluid Dynamics) QB50 Workshop, Brussels, Belgium, Nov. 17-18, 2009
+
+26) Lauren W. Blum, Quintin G. Schiller, Xinlin Li, “Characterization and Testing of an Energetic Particle Telescope for a CubeSat Platform,” Proceedings of the 26th Annual AIAA/USU Conference on Small Satellites, Logan, Utah, USA, August 13-16, 2012, paper: SSC12-VIII-4, URL: http://lasp.colorado.edu/home/csswe/files/2012/06/Blum-and-Schiller.pdf
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DICE   (Dynamic Ionosphere CubeSat Experiment)
+
+
+Who is the team comprised of (NASA, DoD, NRL, university, private company, etc.) (foreign/ Domestic)?
+
+	ASTRA LLC (Atmospheric & Space Technology Research Associates), a company of San 
+	Antonio, TX, USA. Geoff Crowley of ASTRA is the PI (Principal Investigator) of the 
+	mission.
+
+	Utah State University/Space Dynamics Laboratory (USU/SDL), Logan, UT, USA. 
+	Charles Swenson of USU is the Deputy PI.
+
+	Embry-Riddle Aeronautical University, Daytona Beach, FL, USA
+
+	Clemson University, Clemson, SC, USA.
+
+	Major industry partners include L-3 Communications,
+        TiNi Aerospace, Clyde Space, ATK, and Pumpkin Inc. GPS simulator 
+	testing occurred in collaboration with the NASA Goddard Space Flight Center.
+
+Who is sponsor/customer?
+
+	NSF Funded
+
+Actual or proposed.  In-work or launched. Expected or actual launch date.
+
+	Actual 
+	Launched
+	October 28, 2011
+
+What is purpose of mission? (Helio-physics , Tech Demo, Atmospheric Science, etc.)
+
+	goal to map the geomagnetic SED (Storm Enhanced Density) plasma bulge 
+	and plume formations in Earth’s ionosphere.
+
+	Helio-physics
+
+Outcome? (Worked, partial failure, no communication with it, couldn’t talk for first 10 days, etc.)
+
+
+Cost/Budget? 
+
+	NSF funding of 900,000 over three years
+
+Operating System
+
+	Pumpkin C&DH system
+
+Microcontroller / Computing HW
+
+
+Payload sensors (GPS, IMU, magnetometer, etc.)
+
+	GPS
+	Sun Sensor
+	Magnetometer (HMC1043)
+
+Orbit determination approach ( NORAD TLE, onboard propagator, GPS, etc.)
+	
+
+Attitude Control (MAI-200, MAI-400, passive, active, spinning, gravity gradient)
+
+	
+Size (1U, 3U, 6U), More than one cubesat?
+
+	2 x 1.5
+
+Overall Mass ( was it beyond CubeSat spec of 1.33Kg/U, etc.)
+
+	4 Kg
+
+Launch provider (NASA CSLI, from ISS, etc.) / Launch vehicle
+
+	ELaNa - 3
+	Launch Vehicle: Delta-2-7920-10,       Launch Site:    VAFB, CA
+
+Deployer ( P-Pod?)
+
+	P-Pod
+
+Orbit ( Polar, what inclination, altitude, etc.)
+
+	Sun-snchronos near-circular polar orbit
+	altitude = 824 km
+	inclination = 98.7
+	period = 101 minutes 
+
+Expected Lifetime / Actual Lifetime (10 days, 3-months, 6-months)
+
+	Expected to stay in orbit for 15 years with goal of 
+	obtaining at least six months of scientific data
+
+	Still operating
+
+Onboard communications hardware (L3 Cadet, etc.)
+	
+	1.5 Mbit/s downlink. 19.20 kbit/s uplink
+	
+	L3 cadet nanosatellite radio
+
+Comms frequency used ( Hamm band, 468 Mhz?,)
+
+
+Comms ground station ( NASA WFF, Stanford Labs, SDL, university, multiple sites, etc.)
+
+	NASA WFF
+	SRI International, Menlo Park, CA
+
+Special features ( deployable solar panels, deployable antenna, etc.)
+
+	Miniature wire boom deployment system
+		The four EFP (Electric Field Probe) sensors each extend 5 m away 
+		from the spacecraft with 1 cm diameter spheres on the ends of the
+	        wire booms
+
+References:
+
+
+1) URL: http://www.sdl.usu.edu/programs/dice
+
+2) Geoff Crowley, Chad Fish, Charles Swenson, Gary Bust, Aroh Barjatya, Miguel Larsen, and the USU Student Team, “Dynamic Ionosphere CubeSat Experiment,” 2010 CubeSat Developers' Workshop, CalPoly, San Luis Obispo, CA, USA, April 21-23, 2010, http://mstl.atl.calpoly.edu/.../1110%20Crowley%20DICE.pdf
+
+3) Geoff Crowley, Chad Fish, Charles Swenson, Robert Burt, Tim Neilsen, Aroh Barjatya, Gary Bust, Miguel Larsen, “Dynamic Ionosphere Cubesat Experiment (DICE),” Proceedings of the 24th Annual AIAA/USU Conference on Small Satellites, Logan, UT, USA, Aug. 9-12, 2010, SSC10-III-7
+
+4) Therese Moretto Jorgensen, “The Scientific Promise of Small Satellite Missions: Mindset change and research utilization of CubeSats,” 2009, URL: http://www.gwu.edu/~spi/assets/docs/111209Jorgensen.PDF
+
+5) Erik Stromberg, “DICE CubeSat Mission,” 8th Annual CubeSat Developers’ Workshop, CalPoly, San Luis Obispo, CA, USA, April 20-22, 2011, URL: http://www.cubesat.org/.../wed_p5.00_stromberg_dice_cswkshp_2011_stromberg.pdf
+
+6) Geoff Crowley, Chad Fish, Charles Swenson, Robert Burt, Eric Stromberg, Tim Neilsen, Steve Burr, Aroh Barjatya, Gary Bust, Miguel Larsen, “Dynamic Ionosphere Cubesat Experiment (DICE),” Proceedings of the 25th Annual AIAA/USU Conference on Small Satellites, Logan, UT, USA, Aug. 8-11, 2011, paper: SSC11-XII-6
+
+7) Chad Fish, Charles Swenson, Tim Neilsen, Bryan Bingham, Jake Gunther, Erik Stromberg, Steven Burr, Robert Burt, Mitch Whitely, Geoff Crowley, Irfan Azeem, Marcin Pilinski, Aroh Barjatya, Justin Petersen, “DICE Mission Design, Development, and Implementation: Success and Challenges,” Proceedings of the 26th Annual AIAA/USU Conference on Small Satellites, Logan, Utah, USA, August 13-16, 2012, paper: SSC12-XI-1, URL: http://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=1087&context=smallsat
+
+8) Steven Reed Burr, “The Design and Implementation of the Dynamic Ionosphere Cubesat Experiment (Dice) Science Instruments,” All Graduate Theses and Dissertations, July 1, 2013, URL: http://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=2747&context=etd
+
+9) http://astraspace.net/research-development/dicecubesat-mission/
+
+10) C. S. Fish, C. M. Swenson, G. Crowley, A. Barjatya, T. Neilsen, J. Gunther, I. Azeem, M. Pilinski, R. Wilder, D. Allen, M. Anderson, B. Bingham, K. Bradford, S. Burr, R. Burt, B. Byers, J. Cook, K. Davis, C. Frazier, S. Grover,G. Hansen, S. Jensen, R. LeBaron, J. Martineau, J. Miller, J. Nelsen, W. Nelson, P. Patterson, E. Stromberg, J. Tran, S. Wassom, C. Weston, M. Whiteley, Q. Young, J. Petersen, S. Schaire, C. R. Davis, M. Bokaie, R. Fullmer, R. Baktur, J. Sojka, M. Cousins, “Design, Development, Implementation, and On-orbit Performance of the Dynamic Ionosphere CubeSat Experiment Mission,” Springer, Space Science Review, Published online: Feb. 06, 2014, DOI 10.1007/s11214-014-0034-x. URL: http://download.springer.com/static/pdf/597/art%253A10.1007%252Fs11214-014-0034-x.pdf?auth66=1394812285_802c368fe65a20fd213a475030aa459a&ext=.pdf
+
+11) http://www.sdl.usu.edu/downloads/dice.pdf
+
+12) http://www.sdl.usu.edu/downloads/pearl.pdf
+
+13) “NASA Launches Multi-Talented Earth-Observing Satellite,” Space Travel, October 28, 2011, URL: http://www.space-travel.com/reports/NASA_Launches_Multi_Talented_Earth_Observing_Satellite_999.html
+
+14) “CubeSat ELaNa III Launch on NPP Mission,” NASA, October 2011, URL: http://www.nasa.gov/pdf/598567main_65121-2011-CA000-NPP_CubeSat_Factsheet_FINAL.pdf
+
+15) Information provided by Erik Stromberg of USU/SDL, Logan, UT, USA
+
+16) Steven Grover, Keith Bradford, Mark Anderson, Erik Stromberg, Brian Sharp, Steve Burr, “Miniature Wire Boom System for Nano Satellites,” Proceedings of the 24th Annual AIAA/USU Conference on Small Satellites, Logan, UT, USA, Aug. 9-12, 2010, SSC10-XII-5
+
+17) “National Scientific Foundation (NSF) CubeSat-based science missions for Geospace and Atmospheric Research,” Annual Report, October 2013, URL: http://www.nsf.gov/geo/ags/uars/cubesat/nsf-nasa-annual-report-cubesat-2013.pdf
+
+18) Edward W. Kneller, Kevin L. Hyer, Todd McIntyre, David K. Jones, Charles Swenson, “Cadet: A High Data Rate Software Defined Radio for SmallSat Applications,” Proceedings of the 26th Annual AIAA/USU Conference on Small Satellites, Logan, Utah, USA, August 13-16, 2012, paper: SSC12-X-4, URL: http://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=1083&context=smallsat
+
+19) Information provided by Erik Stromberg of USU/SDL (Utah State University/Space Dynamics Laboratory).
+
+20) Charles Swenson, Chad Fish, Erik Stromberg, ECE2250 Class, Bryan Bingham, Joshua Martineau, Phillip Anderson, “The International Space Station as a Launch Platform for CubeSats to Study Space Weather,” and “ DICE First contacts on November 1, 2011,” p. 16, 3rd Nano-Satellite Symposium, Kitakyushu, Japan, December 12-13, 2011, URL: http://www.nanosat.jp/3rd/sozai_report/Day_1_0205_Charles_Swenson_Utah_State_University/NSS-03-Day_1_0205_Charles_Swenson.pdf
+
+21) Jacob Gunther, “Dynamic Ionosphere CubeSat Experiment – High-Speed Satellite Ground Station,” 2014, URL: http://www.ettus.com/application/detail/dynamic-ionosphere-cubesat-experiment-high-speed-satellite-ground-station
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Firefly
+
+
+Who is the team comprised of (NASA, DoD, NRL, university, private company, etc.) (foreign/ Domestic)?
+
+	GSFC
+	Siena College
+	Hawk Insitute for Space Sciences
+
+Who is sponsor/customer?
+
+	NSF
+
+Actual or proposed.  In-work or launched. Expected or actual launch date.
+
+	Actual
+	Launched
+	November 20, 2013
+
+What is purpose of mission? (Helio-physics , Tech Demo, Atmospheric Science, etc.)
+
+	The overall objective is to study the relationship between lightning and TGFs 
+	(Terrestrial Gamma-ray Flashes) which are sudden (transient) energetic bursts 
+	in the upper atmosphere.
+
+Outcome? (Worked, partial failure, no communication with it, couldn’t talk for first 10 days, etc.)
+
+	Worked
+	
+Cost/Budget? 
+
+	Roughly $900,000 over a period of three years
+
+Operating System
+
+	Assuming that they are using Salvo because of microcontroller
+
+Microcontroller / Computing HW
+
+	Pumpkin Flight Motherboard (TI MSP430 based) 
+
+Payload sensors (GPS, IMU, magnetometer, etc.)
+
+	GPS
+	Gamma Ray Detector
+	VLF radio reciever
+	magnetometer
+
+Orbit determination approach ( NORAD TLE, onboard propagator, GPS, etc.)
+
+	GPS
+
+Attitude Control (MAI-200, MAI-400, passive, active, spinning, gravity gradient)
+
+	Gravity gradient 
+
+Size (1U, 3U, 6U), More than one cubesat?
+
+	3U
+
+Overall Mass ( was it beyond CubeSat spec of 1.33Kg/U, etc.)
+
+	4 Kg
+
+Launch provider (NASA CSLI, from ISS, etc.) / Launch vehicle
+
+	Launch Site: NASA WFF
+	Launch Vehicle: Minotaur-1
+
+Deployer ( P-Pod?)
+
+	P-Pod
+
+Orbit ( Polar, what inclination, altitude, etc.)
+
+	Near-circular orbit
+	altitude ~ 500 km
+	inclination = 40.5
+
+Expected Lifetime / Actual Lifetime (10 days, 3-months, 6-months)
+
+	Expected: (3 months to 12 months)
+	Actual: 
+
+Onboard communications hardware (L3 Cadet, etc.)
+
+	AstroDev UHF radio
+
+Comms frequency used ( Hamm band, 468 Mhz?,)
+
+	425 MHZ
+
+Comms ground station ( NASA WFF, Stanford Labs, SDL, university, multiple sites, etc.)
+
+	NASA WFF
+
+Special features ( deployable solar panels, deployable antenna, etc.)
+
+	deployable 3 meter gravity gradient boom
+
+
+References:
+
+
+1) Laura Layton, “NSF/NASA Firefly CubeSat To Study Link Between Lightning And Terrestrial Gamma Ray Flashes,” Spacemart, Nov. 17, 2008, URL: http://www.nasa.gov/topics/universe/features/firefly.html
+
+2) “Firefly: An NSF CubeSat project,” URL: http://firefly.siena-space.org/
+
+3) Douglas E. D. Rowland, “The Firefly Mission - Understanding Earth’s most powerful natural particle accelerator,” Proceedings of the 2009 CubeSat Developers' Workshop, San Luis Obispo, CA, USA, April 22-25, 2009
+
+4) Patrick Barry, “Firefly Mission to Study Terrestrial Gamma-ray Flashes,” NASA, January 29, 2010, URL: http://science.nasa.gov/headlines/y2010/29jan_firefly.htm?list1291671
+
+5) Douglas E. Rowland, Joanne Hill, Paulo Uribe, Jeffrey Klenzing, Floyd Hunsaker, Maxwell Fowle, Ken Simms, Holly Hancock, Mark Saulino, David Guzman, Allison Willingham, Allan Weatherwax, Joseph Kujawski, M. McColgan, Robert Carroll, Jennifer Williams, John DeMatteo, Opher Ganel, Charles Naegeli, Larry Lutz, Clark Dailey, “The NSF Firefly CubeSat Mission: Rideshare Mission to Study Energetic Electrons Produced by Lightning,” 2011 IEEE Aerospace Conference, Big Sky, MT, USA, March 5-12, 2011, paper: 2.0403
+
+6) “USRA to Participate in NSF/NASA Mission to Study Link Between Lightning and Gamma Ray Flashes,” Nov. 18, 2008, URL: http://www.prnewswire.com/news-releases/usra-to-participate-in-nsfnasa-mission-to-study-link-between-lightning-and-gamma-ray-flashes-65457537.html
+
+7) “The Firefly Satellite Mission - Understanding Earth’s most Powerful Natural Particle Accelerator,” URL: http://www.sos.siena.edu/~aweatherwax/firefly/Firefly-ARL.pptx
+
+8) “Firefly: An NSF CubeSat Project,” URL: http://firefly.siena-space.org/
+
+9) “Orbital Successfully Launches Minotaur I Rocket Supporting ORS-3 Mission for the U.S. Air Force,” Orbital, Nov. 19, 2013, URL: http://www.orbital.com/NewsInfo/release.asp?prid=1876
+
+10) Patrick Blau, “Minotaur I successfully launches STPSat-3 & record load of 28 CubeSats,” Spaceflight 101, Nov. 20, 2013, URL: http://www.spaceflight101.com/minotaur-i-ors-3-launch-updates.html
+
+11) Garrett Lee Skrobot, Roland Coelho, “ELaNa – Educational Launch of Nanosatellite Providing Routine RideShare Opportunities,” Proceedings of the 26th Annual AIAA/USU Conference on Small Satellites, Logan, Utah, USA, August 13-16, 2012, paper: SSC12-V-5
+
+12) Garret Skrobot, “ELaNA - Educational Launch of Nanosatellite,” 8th Annual CubeSat Developers’ Workshop, CalPoly, San Luis Obispo, CA, USA, April 20-22, 2011, URL: http://mstl.atl.calpoly.edu/~bklofas/Presentations/DevelopersWorkshop2011/21_Skrobot_ELaNa.pdf
+
+13) Peter Wegner, “ORS Program Status,” Reinventing Space Conference, El Segundo, CA, USA, May 7-10, 2012, URL: http://www.responsivespace.com/.../Dr.%20Peter%20Wegner.pdf
+
+14) Michael P. Kleiman, “ORS Office organizing three new programs,” Air Force Materiel Command, Sept. 4, 2012, URL: http://www.afmc.af.mil/news/story.asp?id=123316172
+
+15) Joe Maly, “6U Mount for CubeSats on ESPA,” CubeSat 9th Annual Summer Workshop, Logan UT, USA, August 11-12, 2012, URL: http://mstl.atl.calpoly.edu/~bklofas/Presentations/SummerWorkshop2012/Maly_6U_ESPA_Mount.pdf
+
+16) Karen C. Fox, “NASA Has Made Contact With Firefly Cubesat,”NASA, January 08, 2014, URL: http://www.nasa.gov/content/goddard/nasa-led-firefly-mission-to-study-lightning/#.UtAG6_uFf_o
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CINEMA  (CubeSat for Ions, Neutrals, Electrons, &MAgnetic fields)
+
+
+Who is the team comprised of (NASA, DoD, NRL, university, private company, etc.) (foreign/ Domestic)?
+
+	UC Berkley  (Lead)
+	Imperial College London
+	Kyung Hee University
+	NASA/ARC
+
+Who is sponsor/customer?
+
+	NSF
+
+Actual or proposed.  In-work or launched. Expected or actual launch date.
+
+	Actual 
+	Lanuched
+	September 2012
+
+What is purpose of mission? (Helio-physics , Tech Demo, Atmospheric Science, etc.)
+
+	objective to provide critical space weather measurements, including unique 
+	high sensitivity mapping of ENAs (Energetic Neutral Atoms), and high 
+	cadence movies of ring current ENAs in stereo from low Earth orbit. By 
+	the selection of its sensor complement, the mission will pave the way 
+	for “magnetospheric constellations” with many satellites making
+	 multipoint observations
+
+Outcome? (Worked, partial failure, no communication with it, couldn’t talk for first 10 days, etc.)
+
+	Worked
+	
+Cost/Budget? 
+
+	Roughly $900,000 over three years from the NSF
+
+Operating System
+
+	Salvo
+
+Microcontroller / Computing HW
+
+	Pumpkin DS-PIC33
+
+Payload sensors (GPS, IMU, magnetometer, etc.)
+
+
+
+Orbit determination approach ( NORAD TLE, onboard propagator, GPS, etc.)
+
+
+
+Attitude Control (MAI-200, MAI-400, passive, active, spinning, gravity gradient)
+
+	gravity gradient 
+
+	2 sun sensors
+	1 magnetometer
+	2 torque coils
+
+Size (1U, 3U, 6U), More than one cubesat?
+
+	3U
+
+Overall Mass ( was it beyond CubeSat spec of 1.33Kg/U, etc.)
+
+	~ 3 Kg
+
+Launch provider (NASA CSLI, from ISS, etc.) / Launch vehicle
+
+	ELaNa-6
+	Launch Vehicle: Atlas-5-411
+	Launch Site: VAFB 
+
+Deployer ( P-Pod?)
+
+	P-Pod
+
+Orbit ( Polar, what inclination, altitude, etc.)
+
+	LEO
+	Polar Inclination
+
+Expected Lifetime / Actual Lifetime (10 days, 3-months, 6-months)
+
+ 	Expected: 1 year
+
+Onboard communications hardware (L3 Cadet, etc.)
+
+	S-band transmitter    (Emhiser S-band transmitter)
+	UHF reciever          (Kantronics TNC and a custom designed UHF whip antenna)
+
+Comms frequency used ( Hamm band, 468 Mhz?,)
+
+	450 MHz
+
+Comms ground station ( NASA WFF, Stanford Labs, SDL, university, multiple sites, etc.)
+
+
+	Berkeley ground stations:
+
+		S-band ground station: optimized for 2200-2300 MHz; LHCP/RHCP
+
+		UHF ground station: Helix antenna, LHCP, ~450 MHz, rated at 25 W.
+
+Special features ( deployable solar panels, deployable antenna, etc.)
+
+	Doployable magnetometer
+
+References:
+
+
+1) David Glaser, Karla Vega, “CINEMA - CubeSat for Ions, Neutrals, Electrons, MAgnetic fields,” Proceedings of the 2009 CubeSat Developers' Workshop, San Luis Obispo, CA, USA, April 22-25, 2009, URL: http://mstl.atl.calpoly.edu/~bklofas/Presentations/DevelopersWorkshop2009/2_Science/4_Glaser-CINEMA.pdf
+
+2) T. S. Horbury, P. Brown, J. P. Eastwood, M. Archer, R. P. Lin, T. Immel, D. Glaser, D.-H. Lee, J. Seon, H. Jin, “CINEMA/TRIO: A three-spacecraft space weather CubeSat mission,” Autumn MIST (Magnetosphere, Ionosphere and Solar Terrestrial science), London, UK, Nov. 25-26, 2010
+
+3) Yongseok Lee, Ho Jin, Jongho Seon, Kyu-Sung Chae, Don-Hun Lee, David L. Glaser, Thomas J. Immel, Robert P. Lin, John G. Sample, Timothy S. Horbury, Patrick Brown, “Development of Cubesat for Space Science mission: CINEMA,” Proceedings of IAC 2011 (62nd International Astronautical Congress), Cape Town, South Africa, Oct. 3-7, 2011, paper: IAC-11-B4.2.5
+
+4) George V. Khazanov, “The Scientific Motivation of Space CubeSat Platforms,” 2011, URL: http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20110015508_2011016229.pdf
+
+5) Robert Lin, “CubeSat: CubeSat for Ions, Neutrals, Electron, and Magnetic Fields (CINEMA),” URL: http://www.researchcrossroads.org/index.php?view=article&id=50:grant-details&option=com_content&Itemid=64&grant_id=4817481
+
+6) Dong-Hun Lee, Robert P. Lin, “Kyung Hee University’s WCU Project on “Space Exploration in Lunar Orbit” Research,” AAPPS Bulletin August 2009, Vol. 19, No. 4, URL: http://www.cospa.ntu.edu.tw/aappsbulletin/data/19-4/18wcu.pdf
+
+7) T. S. Horbury, P. Brown, J. P. Eastwood, M. Archer, R. P. Lin, T. Immel, D. Glaser, D.-H. Lee, J. Seon, H. Jin, “CINEMA/TRIO A three-spacecraft space weather CubeSat mission,” CINEMA/TRIO NAM (National Astronomy Meeting), Manchester, UK, March 27-30, 2012, URL: http://www.jodrellbank.manchester.ac.uk/meetings/nam2012/archive/MST2/Horbury.pdf
+
+8) Jerry Kim, David Glaser, Thomas Immel, “CINEMA (CubeSat for Ions, Neutrals, Electrons & MAgnetic fields),” 8th Annual CubeSat Developers’ Workshop, CalPoly, San Luis Obispo, CA, USA, April 20-22, 2011, URL: http://www.cubesat.org/images/2011_Spring_Workshop/poster_jerry_kim_cinema_general.pdf
+
+9) JaegunYoo, TaeyeonKim, Ho Jin, JonghoSeon, David Glaser, Dong-Hun Lee, Robert P. Lin, “A Thermal and Mechanical Analysis of Trio CINEMA CubeSat Mission,” 8th Annual CubeSat Developers’ Workshop, CalPoly, San Luis Obispo, CA, USA, April 20-22, 2011, URL: http://www.cubesat.org/images/2011_Spring_Workshop/poster_jaegun_trio_cinema.pdf
+
+10) David McGrogan, “Hardware and High Data Speeds on the CINEMA CubeSat,” Technical Report No. UCB/EECS-2010-83, May 19, 2010, URL: http://www.eecs.berkeley.edu/Pubs/TechRpts/2010/EECS-2010-83.pdf
+
+11) Carol Ness, “Students building satellite that’s seen as future of space research,” Oct. 3, 2011, URL: http://newscenter.berkeley.edu/2011/10/03/students-building-satellite-thats-seen-as-future-of-space-research/
+
+12) Jaegun Yoo, Ho Jin, Jongho Seon, Yun-Hwang Jeong, David Glaser, Dong-Hun Lee, Robert P. Lin, “Thermal Analysis of TRIO-CINEMA Mission,” JASS (Journal of Astronomy and Space Sciences, Vol. 29, No 1, 2012, pp. 23-31, URL: http://janss.kr/Upload/files/JASS/29-1-23.pdf
+
+13) http://sprg.ssl.berkeley.edu/cinema/science/documents/2009NSFCinemaProposal.pdf
+
+14) Yongmyung Seo, Kyu-Sung Chae, Brent Mochizuki, David Clarino, Nick Yeung, Seyoung Yoon, Jongho Seon, Ho Jin, Dong-Hun Lee, Robert P. Lin, John Sample, Thomas Immel, Patrick Brown, Timothy S. Horbury, “Instrument interface module between the on-board-computer and payloads in CINEMA CubeSat as developed with FPGA,” Proceedings of the 64th International Astronautical Congress (IAC 2013), Beijing, China, Sept. 23-27, 2013, paper: IAC-13-B4.6B.15
+
+15) Karla Vega, David Auslander, David Pankow, “Design and Modeling of an Active Attitude Control System for CubeSat Class Satellites,” AIAA Modeling and Simulation Technologies Conference, 10-13 August 2009, Chicago, Illinois, USA, paper: AIAA 2009-5812, URL: http://pdf.aiaa.org/preview/CDReadyMMST09_1999/PV2009_5812.pdf
+
+16) David McGrogan, “CINEMA CubeSat Flight Software, Handling High Data Rates,” Proceedings of the 7th Annual CubeSat Developers' Workshop, Cal Poly, San Luis Obispo, CA, USA, April 21-23, 2010, URL: http://cubesat.calpoly.edu/images/Presentations/1000%20davidmcgrogan2010.pdf
+
+17) Yao-Ting Mao, David Auslander, David Pankow, “CINEMA: Attitude Control System,” 8th Annual CubeSat Developers’ Workshop, CalPoly, San Luis Obispo, CA, USA, April 20-22, 2011 URL: http://www.cubesat.org/images/2011_Spring_Workshop/poster_yao-ting_mao_cinema_acs.pdf
+
+18) Karla Patricia Vega, “Attitude Control System for CubeSat for Ions, Neutrals, Electrons and MAGnetic Field (CINEMA),” Thesis, UCB, Fall 2009, URL: http://sprg.ssl.berkeley.edu/cinema/science/documents/thesis_vega.pdf
+
+19) Nayoung Yoon, Seyoung Yoon, Yongho Kim, Jiwon Yoon, Ho Jin, Jongho Seon, Kyu-Sung Chae, DongHun Lee, Robert P. Lin, “Development of CINEMA Mission Uplink Communication System,” JASS (Journal of Astronomy and Space Sciences, Vol. 29, No 1, 2012, pp. 33-40, URL: http://janss.kr/Upload/files/JASS/29-1-33.pdf
+
+20) Pascal Saint-Hilaire, Manfred Bester, and the CINEMA Team, “CINEMA - CubeSat for Ions, Neutrals, Electrons, MAgnetic fields, Communication System Overview and NTIA lessons learned,” 9th Annual Spring CubeSat Developer's Workshop, Cal Poly State University, San Luis Obispo, CA, USA, April 18-20, 2012, URL: http://mstl.atl.calpoly.edu/~bklofas/Presentations/DevelopersWorkshop2012/CHDC_Saint-Hilaire_CINEMA.pdf
+
+21) “Atlas V launches on classified Flight to orbit NROL-36 Payload,” Spaceflight 101, Sept. 14, 2012, URL: http://www.spaceflight101.com/nrol-36-launch-updates.html
+
+22) “2012 in Spaceflight,” Wikipedia, URL: http://en.wikipedia.org/wiki/2012_in_spaceflight
+
+23) Robert Lin, Thomas Immel, Jerry Kim, David, Glaser, John Sample, Tim Horbury, “CINEMA Status,” Oct. 31, 2011, URL: ftp://apollo.ssl.berkeley.edu.../CINEMA%20Status%2010-31-11_v2.ppt
+
+24) “ULA Atlas V finally launches with NROL-36,” NASA, Sept. 13, 2012, URL: http://www.nasaspaceflight.com/2012/09/uatlas-v-launch-nrol-36-vandenberg/
+
+25) Guy Mathewson, “2012 CubeSat Workshop, OSL’s Vision & Mission,” 9th Annual Spring CubeSat Developer's Workshop, Cal Poly State University, San Luis Obispo, CA, USA, April 18-20, 2012, URL: http://mstl.atl.calpoly.edu/~bklofas/Presentations/DevelopersWorkshop2012/Mathewson_Keynote.pdf
+
+26) Travis Willcox, “Office of Space Launch Atlas V Aft Bulkhead Carrier & Operationally Unique Technologies Satellite,” 9th Annual Spring CubeSat Developer's Workshop, Cal Poly State University, San Luis Obispo, CA, USA, April 18-20, 2012, URL: http://mstl.atl.calpoly.edu/.../Keynote_Willcox_ABC_OUTSat.pdf
+
+27) Gordon Barnhill, “NROL-36/OUTSat Impacts/Lessons Learned,” 12th Annual JACIE (Joint Agency Commercial Imagery Evaluation) Workshop, St. Louis, MO, USA, April 16-18, 2013, URL: http://www.cubesat.org/images/stories/Spring_Workshop_2013/Callen_OUTSat_Lessons_Learned.pdf
+
+28) “National Scientific Foundation (NSF) CubeSat-based science missions for Geospace and Atmospheric Research,” Annual Report, October 2013, pp: 32-33, URL: http://www.nsf.gov/geo/ags/uars/cubesat/nsf-nasa-annual-report-cubesat-2013.pdf
+
+29) D. L. Glaser, J. S. Halekas, P. Turin, D. W. Curtis, D. E. Larson, S. E. McBride, R. P. Lin, “STEIN (SupraThermal Electrons, Ions and Neutrals), A New Particle Detection Instrument for Space Weather Research with CubeSats,” Proceedings of the 23nd Annual AIAA/USU Conference on Small Satellites, Logan, UT, USA, Aug. 10-13, 2009, SSC09-III-1, URL: ftp://apollo.ssl.berkeley.edu/.../STEIN%20SmallSat%20Paper%20SSC09-III-1.pdf
+
+30) “CINEMA - CubeSat for Ions, Neutrals, Electrons and Magnetic fields,” Imperial College London, Feb. 2010, URL: https://www.jiscmail.ac.uk/cgi-bin/filearea.cgi?LMGT1=SPACE-WEATHER&a=get&f=/11feb2010/HorburyTRIOCINEMAFeb2010.pdf
+
+31) Patrick Brown, Chris Carr, Tim Horbury, “MAGIC – MAGnetometer Imperial College,” Fourth European CubeSat Symposium, ERM (Ecole Royale Militaire), Brussels, Belgium, Jan.30-Feb. 1, 2012
+
+32) “Watching space weather through the MAGIC of CubeSat CINEMA,” Space Daily, April 12, 2012, URL: http://www.spacedaily.com/.../Watching_space_weather_through_the_MAGIC_of_CubeSat_CINEMA
+
+33) P. Brown, T. Beek, C. Carr, H. O’Brien, E. Cupido, T. Oddy, T. S. Horbury, “Magnetoresistive magnetometer for space science applications,” Measurement Science and Technology, Vol. 23, 2012, doi:10.1088/0957-0233/23/2/025902, URL: http://iopscience.iop.org/0957-0233/23/2/025902/pdf/0957-0233_23_2_025902.pdf
+
+34) “Instrumentation II, Magnetometers and Calibration,” URL: http://www.sp.ph.ic.ac.uk/~arnaud/PG2008/Instrumentation_Lecture_II.pdf
+
+35) http://www3.imperial.ac.uk/spat/research/missions/space_missions/cinema
+
+36) Seyoung Yoon, Yongho Kim, Jiwon Yun, Jongho Seon, Ho Jin, Kyu-Sung Chae, Dong-Hun Lee, Robert P. Lin, John Sample, Thomas Immel, Jerry Kim, Timothy S. Horbury, Patrick Brown, “Operations for Two Spacecraft of Triple-cubesat Mission TRIO-CINEMA with A Single RF Chain,” Proceedings of the 63rd IAC (International Astronautical Congress), Naples, Italy, Oct. 1-5, 2012, paper: IAC-12-B4.2.4
+
+37) “WCU Project Series 3, Space Exploration By CubeSat,” KHU, April 6, 2013, URL: http://www.khu.ac.kr/eng/about/news_view.jsp?idx=164&iPage=1
+
+38) “Dnepr Cluster Mission 2013,” ISC Kosmotras, Nov. 21, 2013, URL: http://www.kosmotras.ru/en/news/149/
+
+39) Patrick Blau, “Dnepr Rocket successfully launches Cluster of 32 Satellites,” Spaceflight 101, Nov. 21, 2013, URL: http://www.spaceflight101.com/denpr-2013-cluster-launch-updates.html
+
+40) Robert Christy, “Dnepr Launch 2013 November 21,” Zarya, Nov. 21, 2013, URL: http://www.zarya.info/blog/?p=1745
+
+41) “2013 in spaceflight,” Wikipedia, Nov. 21, 2013, URL: http://en.wikipedia.org/wiki/2013_in_spaceflight#November
+
+42) “PUCPSat-1 Satellite Project,” URL: http://inras.pucp.edu.pe/pucpsat1/index.html
+
+43) “UniSat-5 and its payloads,” GAUSS Team, URL: http://www.gaussteam.com/unisat-5/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FIREBIRD  (Focused Investigation of Relativistic Electron Burst Intensity, Range, and Dynamics)
+
+
+Who is the team comprised of (NASA, DoD, NRL, university, private company, etc.) (foreign/ Domestic)?
+
+	Montana State University
+	University of New Hampshire
+	The Aerospace Corporation
+	Los Alamos National Laboratories 
+
+Who is sponsor/customer?
+
+	NSF
+
+Actual or proposed.  In-work or launched. Expected or actual launch date.
+
+	Actual 
+	Launched : December 6, 2013
+
+What is purpose of mission? (Helio-physics , Tech Demo, Atmospheric Science, etc.)
+
+	The mission objective is to assess the spatial scale and spatial temporal
+        ambiguity of magnetospheric microbursts in the Van Allen radiation belts
+
+Outcome? (Worked, partial failure, no communication with it, couldn’t talk for first 10 days, etc.)
+
+	Working
+	
+Cost/Budget? 
+
+	Roughly $900,000 over three years from the NSF
+
+Operating System
+
+	
+
+Microcontroller / Computing HW
+
+	
+
+Payload sensors (GPS, IMU, magnetometer, etc.)
+
+	GPS  (NovAtel OEMV-1)
+	
+
+Orbit determination approach ( NORAD TLE, onboard propagator, GPS, etc.)
+
+	single frequency GPS reciever (NovAtel OEMV-1)
+
+Attitude Control (MAI-200, MAI-400, passive, active, spinning, gravity gradient)
+
+	Passive magnetic attitude control
+
+Size (1U, 3U, 6U), More than one cubesat?
+
+	2 x 1.5
+
+Overall Mass ( was it beyond CubeSat spec of 1.33Kg/U, etc.)
+
+	~ 4 Kg
+
+Launch provider (NASA CSLI, from ISS, etc.) / Launch vehicle
+
+	Launch Provider: United Launch Alliance
+	Launch Vehicle: Atlas-5-501
+	
+Deployer ( P-Pod?)
+
+	P-Pod
+
+Orbit ( Polar, what inclination, altitude, etc.)
+
+
+
+Expected Lifetime / Actual Lifetime (10 days, 3-months, 6-months)
+
+	Expected Lifetime: > 3-months
+
+Onboard communications hardware (L3 Cadet, etc.)
+
+	
+Comms frequency used ( Hamm band, 468 Mhz?,)
+
+	437.405 and 437.23 MHz
+
+Comms ground station ( NASA WFF, Stanford Labs, SDL, university, multiple sites, etc.)
+
+
+Special features ( deployable solar panels, deployable antenna, etc.)
+
+	
+References:
+
+
+1) Brian Larsen, Harlan Spencer, David Klumpar, Larry Springer, J. Bernard Blake,“Focused Investigations of Relativistic Electron Burst Intensity, Range, and Dynamics (FIREBIRD),” CubeSat Developers' Workshop, CalPoly, April 22-25, 2009, URL: http://mstl.atl.calpoly.edu/~bklofas/Presentations/DevelopersWorkshop-2009/2_Science/2_Larsen-FIREBIRD.pdf
+
+2) David. M. Klumpar, Harlan E. Spence, Bernie Blake, “Overview: The Dual-CubeSat FIREBIRD Mission (Focused Investigations of Relativistic Electron Burst Intensity, Range, and Dynamics),” Nov. 30, 2009, URL: http://mstl.atl.calpoly.edu/~bklofas/NSF_comm/20091130_telecon/FIREBIRD-Overview_NSF_Telecon_113009.pdf
+
+3) Mackenzie Charles Wilz, “Focused Investigations of Relativistic Electron Burst Intensity, Range and Dynamics Space Weather Mission Global Positioning System,” Thesis for Master of Science in Electrical Engineering, Montana State University, Bozeman, MT, January 2011, URL: http://etd.lib.montana.edu/etd/2011/wilz/WilzM0511.pdf
+
+4) Ian Lyon, “The Separation of a Two-Nanosatellite System via Differential Drag,” Thesis at MSU, April 2011, URL: https://www.carroll.edu/forms/library/theses/LyonIFinal_2011.pdf
+
+5) Ehson Mosleh, “FIREBIRD and SSEL Space Weather Missions,” CubeSat Developers Workshop, San Luis Obispo, CA, April 20, 2011, URL: http://mstl.atl.calpoly.edu/~bklofas/Presentations/Developers-Workshop2011/6_Mosleh_FIREBIRD.pdf
+
+6) Marcello Ruffolo, Nathan Hyatt, Jordan Maxwell, “FIREBIRD Science Overview,” Aug. 2, 2013, URL: http://solar.physics.montana.edu/www/REU/2013/mruffolo/FB_Science_Final.pdf
+
+7) http://firebird.unh.edu/
+
+8) http://en.wikipedia.org/wiki/2013_in_spaceflight#December
+
+9) William Graham, “Atlas V launches NROL-39 from Vandenberg,” NASA Spaceflight.com, Dec. 5, 2013, URL: http://www.nasaspaceflight.com/2013/12/atlas-v-launch-nrol-39-vandenberg/
+
+10) Stephen Clark, “Government spy satellite rockets into space on Atlas 5,” Spaceflight Now, Dec. 6, 2013, URL: http://www.spaceflightnow.com/atlas/av042/131206launch/#.UqHYgCeFdm4
+
+11) NROL-39, United Launch Alliance Atlas V Rocket Successfully Launches Payload for the National Reconnaissance Office,” ULA, Dec. 6, 2013, URL: http://www.ulalaunch.com/site/pages/News.shtml#/163/
+
+12) “UNH Scientists Launch “CubeSats” into Radiation Belts,” UNH, Dec. 9, 2013, URL http://www.unh.edu/news/releases/2013/12/ds09cubesats.cfm
+
+13) “Future Imagery Architecture,” Wikipedia, URL: http://en.wikipedia.org/wiki/Future_Imagery_Architecture
+
+14) Patrick Blau, Atlas V to launch with classified NROL-39 & 12 CubeSats in December, Nov. 15, 2013, URL: http://www.spaceflight101.com/atlas-v-nrol-39-launch-updates.html
+
+15) Bryan Klofas, “Upcoming CubeSat Launches: The Flood Has Arrived,” AMSAT-NA Symposium Houston, TX, USA, 1 November 2013, URL: http://www.klofas.com/papers/klofas_amsat2013.pdf
+
+16) “Atlas V GEMSat Launch 2013,” URL: http://www.cubesat.org/index.php/missions/upcoming-launches/134-l39-launch-alert
+
+17) Jonathan's Space Report No. 690, Dec 6, 2013, URL: http://planet4589.org/space/jsr/back/news.690
+
+18) David Sims, UNH, Dec. 09, 2013, URL: http://www.eos.unh.edu/news/indiv_news.shtml?NEWS_ID=1433
+
+19) H. E. Spence, J. B. Blake, A. B. Crew, S. Driscoll, D. M. Klumpar, B. A. Larsen, J. Legere, S. Longworth, E. Mosleh, T. P. O’Brien, S. Smith, L. Springer, M. Widholm, “Focusing on Size and Energy Dependence of Electron Microbursts From the Van Allen Radiation Belts,” Space Weather, Vol. 10, S11004, 2012, doi.10.1029/2012SW000869, URL: http://scholars.unh.edu/cgi/viewcontent.cgi?article=1170&context=physics_facpub
+
+20) http://firebird.unh.edu/firebird_payload.shtml
+
+21) “Big Science in a Pintsize Package,” UNH EOS Spheres Newsletter, Summer 2012, URL: http://www.eos.unh.edu/Spheres_0812/firebird.shtml

@@ -1,0 +1,84 @@
+CubeSat Mission to look into:
+
+
+1)AubieSat-1   (1U)
+	Auburn University
+		ELaNa-3
+
+2) RAVEN -- Radiometer Assessment Using Vertical Aligned Nanotubed (3U)
+	Johns Hopkins
+		In Work
+
+3) ELFIN -- UCLA Electron Losses and Fields Investigation   (3U)
+	 UCLA
+		In Work
+
+4) CeREs -- Compact Radiation Belt Explorer to Study Charged Particle Dynamics in Geospace  (3U)
+	 Goddard Space Flight Center
+		In Work
+
+5) LMPC -- A CubeSat Flight Demonstration of a Photon-counting Infrared Detector  (3U)
+	 The Aerospace Corporation
+		In Work
+
+6) NMTSAT -- New Mexico Tech Nanosatellite  (3U)
+	 New Mexico Institute of Mining and Technology	
+		In Work
+
+7) MiRaTA -- Microwave Radiometer Technology Acceleration (3U)
+	 MIT 
+		In Work
+
+8) EQUiSAT -- EQUiSAT:Space for the people (1U)
+	 Brown University
+		In Work
+
+9) CHOMPTT -- CubeSat Handling of Multisystem Precision Time Transfer  (3U)
+	 University of Florida
+		In Work
+
+10) PATRIOT -- Plasma Ambipolar Thruster for Responsive In-Orbit Transfers (3U)
+	 University of Michigan
+		In Work
+
+11) ANDESITE -- Ad-Hoc Network Demonstration for Extended Satellite-Based Inquiry and Other Team Endeavors (3U)
+	 Boston University 
+		In Work
+
+12) ARAPAIMA -- Application for RSO Autonomous Proximity Analysis and Imaging (6U)
+	 Embry-Riddle Aeronautical University
+		In Work
+
+13) GE1 -- Golden Eagel 1  (1U)
+	 Marquette University
+		In Work
+
+14) GASPACS -- Get Away Special Passive Attitude Control Satellite (1U)
+	 Utah State University
+		In Work
+
+15) STMSat-1 -- St. Thomas More Cathedral School (STM) CubeSat Project (1U)
+	 St. Thomas More Cathedral School
+		In Work
+
+16) SPA -1 Trailblazer -- Trailblazer: Proof of Concept CubeSat Mission for SPA-1   (1U)
+	 University of New Mexico
+		Manifest ELaNa - 4
+
+17) AeroCube 1,2,3 -- (1U)
+	 The Aerospace Corporation
+		All three cubesats were launched
+
+
+
+
+
+
+
+
+First 100 CubeSat Missions:
+
+<img src="picts/table_1.jpg" alt="add keywords here"><br>
+<img src="picts/table_2.jpg" alt="add keywords here"><br>
+<img src="picts/table_3.jpg" alt="add keywords here"><br>
+
