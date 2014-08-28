@@ -1,0 +1,102 @@
+\title{\textbf{CubeSat Survey}}
+\author{
+        Miranda Straub\\
+        Department of Mechanical and Aerospace Engineering\\
+        West Virginia University\\
+        Morgantown, WV 26505
+            \and
+        Ryan Watson\\
+        Department of Mechanical and Aerospace Engineering\\
+        West Virginia University\\
+        Morgantown, WV 26505
+}
+\date{\today}
+
+\documentclass[11pt]{article}
+\usepackage{amsmath}
+\usepackage[margin=1.0in]{geometry}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+...............
+\end{abstract}
+
+\section{Introduction}
+The CubeSat Project was developed in 1999 by Professor Jordi Puig-Suari of California Polytechnic State University (Cal Poly), San Luis Obispo and Professor Bob Twiggs of Stanford University's Space Systems Development Laboratory (SSDL) in an attempt to standardize design parameters for small satellites and to reduce cost and development time.  These standards have allowed for more frequent launches and therefore easier access to space due to the low-budget nature of CubeSats \cite{CalPoly}.
+
+In order for a spacecraft to be considered a CubeSat, it must be a 10 cm cube with a mass that does not exceed 1.33 kg per unit (U).  CubeSats can be launched as 1U, 2U, or 3U configurations from the Poly Picosatellite Orbital Deployer (P-POD), also developed by Cal Poly.  The P-POD serves as a standardized deployment system for up to three 1U CubeSats or any equivalent combination.  Any CubeSat being deployed from a P-POD must adhere to specific guidelines in the CubeSat Design Specifications document in order to ensure compatibility for a successful deployment.  However, it should be noted that recent designs have been proposed for 6U CubeSats, resulting in the need for an alternative deployer.  Fortunately, NASA Wallops, NASA Ames, as well as other institutions have come up with designs for 6U deployers, all of which have been tested and have received a TRL of at least 6 \cite{SmSCTech}.
+
+As mentioned before, a 1U CubeSat can have a mass of 1.33 kg and must be a 10 cm cube.  This means that a 2U CubeSat must have a mass no more than 2.66 kg and have dimensions of 10cm x 10cm x 20cm while a 3U must have a mass no more than 4 kg and dimensions of 10cm x 10cm x 30cm.  The constraints imposed on mass and volume also affect the amount of power available for CubeSat missions.  Based on available surface area for solar panels, the average power of a CubeSat can vary from 1W (1U) and 5W (3U), although deployable solar panels can significantly increase the amount of available power (i.e. a 3U CubeSat with deployable panels can have up to 20W of available power) \cite{ClydeSpace}. 
+
+The standards developed by Cal Poly have resulted in a significant increase in the number of small satellite missions launched over the past few years \cite{MarketAssessment}.  This is partially due to the development of commercial off-the-shelf (COTS) components specifically designed to meet all CubeSat requirements.  Because of this, CubeSats have become relatively inexpensive, making them ideal educational tools in university and classroom settings.  With the development of COTS components, there are a variety of COTS options for various processors and operating systems as well.  However, these options may not always meet the criteria required for various missions.  It is for this reason that NASA IV\&V has been asked to develop a portable, pure software build-and-test system that will provide the capability to develop, debug, and test software on a standard personal computer with no specialized hardware.  Once this is developed, it is expected to be used in collaboration with NASA GSFC's SpaceCube development and testing. 
+
+\section{Results of Survey}
+To determine possible options for standardized NASA IV\&V software, a comprehensive survey was conducted on past, present, and future CubeSat missions.  This survey initially consisted of all CubeSat missions able to be found online and totaled slightly over 250 missions.  For this particular report, it was decided that the focus would be on domestic missions which narrowed the search to approximately 150 missions, some of which had been launched while others were proposed concepts.  This list was consolidated once more to focus on already launched missions as well as those with launch services confirmed in upcoming years.  As a result, a comprehensive list of approximately 115 CubeSats has been developed.  The information included in this survey is summarized below in Table \ref{summary}.  This section of the report will provide a summary of data collected as a result of the survey.  
+
+\begin{table}[h]
+\centering
+\caption{Summary of Data Collected for CubeSat Survey}
+\label{summary}
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{General Information} & \textbf{Launch Information} & \textbf{IV\&V Information} \\ \hline
+Name of Satellite & Launch Date & Processor \\ \hline
+Mission Objective & Launch Vehicle/Mission & Orbit \\ \hline
+Sponsor & Mission Status & Uplink/Downlink \\ \hline
+Manufacturer & Deployer & Attitude Determination \\ \hline
+Domestic & Program & Attitude Control \\ \hline
+Size & Orbit Parameters & Orbit Determination \\ \hline
+Mass &  & Miscellaneous \\ \hline
+\end{tabular}
+\end{table}
+A market assessment conducted by SpaceWorks Enterprises, Inc. in 2014 showed that of the nanosatellites launched between 2009 and 2013, 47\% can be categorized as 1U CubeSats.  Although not enough information is given to determine how many 2U and 3U CubeSats have been launched, it can be reasonably assumed that approximately 75\% of nanosatellites launched in that time frame can be considered CubeSats.  This high percentage shows just how popular CubeSats have become and gives reason to believe this number will continue to increase in the near future.  Based on the data collected in this survey, it can be confirmed that there has been a significant increase in the number of CubeSats launched per year as well as a migration towards 3U CubeSats (see Figure \ref{peryear}). 
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=0.75\textwidth]{SizesPerYear.png}
+\caption{Results of survey showing the size and number of CubeSats launched per year as of August 2014}
+\label{peryear}
+\end{figure}
+
+Figure \ref{classperyear} shows the number of CubeSats launched per year based on class (i.e. private, civilian government, university, military, etc.).  It is obvious that a majority of launches have been for University missions and educational purposes.  However, there has been a significant increase seen in civilian government missions as well as privately funded missions.  
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=0.75\textwidth]{ClassPerYear.png}
+\caption{Results of survey showing the number of CubeSats launched per year, divided by class, as of August 2014}
+\label{classperyear}
+\end{figure}
+
+When considering verification and validation software, it is of most importance to determine the processor and operating system used for as many CubeSat missions as possible.  This will provide insight into which processors are most effective and capable of ensuring successful mission operations.  Of the CubeSats surveyed, almost 40\% used PIC processors.  Of these processors, 50\% used the PIC18.  These results are summarized in Figure \ref{processors} below.
+
+\begin{figure}[t!]
+    \centering
+    \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[height=2in]{Bar_ProcessorsUsed}
+        \caption{Summary of all processors used}
+    \end{subfigure}%
+    ~ 
+    \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[height=2in]{Bar_PICProcessors}
+        \caption{Breakdown of PIC processors used}
+    \end{subfigure}
+    \caption{Summary of processors used in CubeSats}
+		\label{processors}
+\end{figure}
+
+\section{Discussion of Results}
+................
+\section{Future Work}
+................
+
+\bibliographystyle{aiaa}
+\bibliography{CubeSatReferences}
+
+\end{document}
