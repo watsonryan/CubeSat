@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.2)  29 AUG 2014 12:54
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.2)  29 AUG 2014 13:19
 entering extended mode
-**CubeSatSurvey_1.tex
-("C:\Users\Miranda\Documents\GitHub\CubeSat\LaTeX Writeup\CubeSatSurvey_1.tex"
+**CubeSatSurvey_2.tex
+("C:\Users\Miranda\Documents\GitHub\CubeSat\LaTeX Writeup\CubeSatSurvey_2.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, arabic, armenian, assamese, basque, bengali
 , bokmal, bulgarian, catalan, coptic, croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, galic
@@ -166,7 +166,7 @@ Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 \c@subfigure=\count104
 \c@subtable=\count105
 )
-("C:\Users\Miranda\Documents\GitHub\CubeSat\LaTeX Writeup\CubeSatSurvey_1.aux")
+("C:\Users\Miranda\Documents\GitHub\CubeSat\LaTeX Writeup\CubeSatSurvey_2.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
@@ -230,35 +230,63 @@ LaTeX Font Info:    ... okay on input line 22.
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
+ [1
 
+{C:/Users/Miranda/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<SizesPerYear.png, id=9, 717.882pt x 454.3374pt>
+File: SizesPerYear.png Graphic file (type png)
+ <use SizesPerYear.png>
+Package pdftex.def Info: SizesPerYear.png used on input line 61.
+(pdftex.def)             Requested size: 352.31625pt x 220.32332pt.
 
-LaTeX Warning: Citation `CalPoly' on page 1 undefined on input line 30.
+<ClassPerYear.png, id=12, 752.0898pt x 470.2368pt>
+File: ClassPerYear.png Graphic file (type png)
+ <use ClassPerYear.png>
+Package pdftex.def Info: ClassPerYear.png used on input line 70.
+(pdftex.def)             Requested size: 352.31625pt x 217.69487pt.
+ [2]
+<Pie_Processors.png, id=17, 685.8122pt x 497.60907pt>
+File: Pie_Processors.png Graphic file (type png)
+ <use Pie_Processors.png>
+Package pdftex.def Info: Pie_Processors.png used on input line 81.
+(pdftex.def)             Requested size: 200.84534pt x 144.54pt.
 
+<Pie_PIC.png, id=19, 685.8122pt x 497.60907pt>
+File: Pie_PIC.png Graphic file (type png)
+ <use Pie_PIC.png>
+Package pdftex.def Info: Pie_PIC.png used on input line 87.
+(pdftex.def)             Requested size: 200.84534pt x 144.54pt.
 
-LaTeX Warning: Citation `SmSCTech' on page 1 undefined on input line 32.
+Overfull \hbox (4.86665pt too wide) in paragraph at lines 79--90
+ [][]  [] 
+ []
 
+[3 <C:/Users/Miranda/Documents/GitHub/CubeSat/LaTeX Writeup/SizesPerYear.png> <C:/Users/Miranda/Documents/GitHub/CubeSat
+/LaTeX Writeup/ClassPerYear.png>] <Pie_OS.png, id=28, 685.8122pt x 497.60907pt>
+File: Pie_OS.png Graphic file (type png)
+ <use Pie_OS.png>
+Package pdftex.def Info: Pie_OS.png used on input line 99.
+(pdftex.def)             Requested size: 352.31625pt x 253.54918pt.
 
-LaTeX Warning: Citation `ClydeSpace' on page 1 undefined on input line 34.
-
-
-LaTeX Warning: Citation `MarketAssessment' on page 1 undefined on input line 36.
-
-! I can't write on file `CubeSatSurvey_1.pdf'.
-Please type another file name for output
-! Emergency stop.
-<to be read again> 
-                   \endgroup \set@typeset@protect 
-l.37 
-     
-*** (job aborted, file error in nonstop mode)
-
- 
+("C:\Users\Miranda\Documents\GitHub\CubeSat\LaTeX Writeup\CubeSatSurvey_2.bbl" [4 <C:/Users/Miranda/Documents/GitHub/Cub
+eSat/LaTeX Writeup/Pie_Processors.png> <C:/Users/Miranda/Documents/GitHub/CubeSat/LaTeX Writeup/Pie_PIC.png> <C:/Users/M
+iranda/Documents/GitHub/CubeSat/LaTeX Writeup/Pie_OS.png>]) [5]
+("C:\Users\Miranda\Documents\GitHub\CubeSat\LaTeX Writeup\CubeSatSurvey_2.aux") ) 
 Here is how much of TeX's memory you used:
- 3314 strings out of 493921
- 49140 string characters out of 3144871
- 118035 words of memory out of 3000000
- 6611 multiletter control sequences out of 15000+200000
- 9177 words of font info for 33 fonts, out of 3000000 for 9000
+ 3369 strings out of 493921
+ 50248 string characters out of 3144871
+ 120035 words of memory out of 3000000
+ 6653 multiletter control sequences out of 15000+200000
+ 10017 words of font info for 36 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,6n,38p,1082b,203s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 36i,11n,38p,1082b,435s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb>
+Output written on CubeSatSurvey_2.pdf (5 pages, 303574 bytes).
+PDF statistics:
+ 55 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+
