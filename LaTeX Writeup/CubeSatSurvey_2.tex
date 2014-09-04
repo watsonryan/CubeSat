@@ -1,11 +1,6 @@
 \title{\textbf{CubeSat Survey}}
 \author{
-        Miranda Straub\\
-        Department of Mechanical and Aerospace Engineering\\
-        West Virginia University\\
-        Morgantown, WV 26505
-            \and
-        Ryan Watson\\
+        \textit{Miranda Straub, Ryan Watson, John A. Christian, and Jason N. Gross}\\
         Department of Mechanical and Aerospace Engineering\\
         West Virginia University\\
         Morgantown, WV 26505
@@ -24,7 +19,6 @@
 
 \begin{abstract}
 In recent years, there has been a significant migration towards small satellite missions due to their reduced cost and development time.  Specifically, CubeSats have become increasingly popular not only in university environments, but government and private industries as well.  The standardization of these 10 cm CubeSats has also allowed for rideshare opportunities, thus finding a launch service provider is much simpler, allowing for more frequent access to space.  CubeSat standards also allow for commercial off the shelf (COTS) hardware components to be made available at reasonable prices, however there is no standard software as of 2014.  NASA Independent Verification and Validation (IV\&V) facility has requested a survey of CubeSats to provide additional insight into all previous CubeSat missions.  This information will assist them in developing a standard software to be used for all future IV\&V CubeSat missions as well as missions at NASA Goddard Space Flight Center (GSFC).
-
 \end{abstract}
 
 \section{Introduction}
@@ -43,7 +37,7 @@ CubeSats that meet dimension and mass requirements can be launched from the Poly
 
 The standards developed by Cal Poly have resulted in a significant increase in the number of small satellite missions launched over the past few years \cite{MarketAssessment}.  This is partially due to the development of commercial off-the-shelf (COTS) components specifically designed to meet all CubeSat requirements.  Because of this, CubeSats have become relatively inexpensive, making them ideal educational tools in university and classroom settings.  With the development of COTS components, there are a variety of options for various processors and operating systems; however, these options may not always meet the criteria required for various missions.  It is for this reason that NASA IV\&V has been asked to develop a portable, pure software build-and-test system that will provide the capability to develop, debug, and test software on a standard personal computer with no specialized hardware.  Once this is developed, it is expected to be used in collaboration with NASA GSFC's SpaceCube development and testing. 
 
-\section{Results of Survey}
+\section{Methodology}
 To determine possible options for a standardized NASA IV\&V software, a comprehensive survey was conducted on past, present, and future CubeSat missions.  This survey initially consisted of all CubeSat missions able to be found online and totaled slightly over 250 missions.  For this particular report, it was decided that the focus would be on domestic missions which narrowed the search to approximately 150 missions, some of which had been launched while others were still only proposed concepts.  This list was consolidated once more to focus on already launched missions as well as missions with launch services confirmed in upcoming years.  As a result, a comprehensive list of approximately 115 CubeSats has been developed.  The information collected in this survey can be categorized as shown in Table \ref{summary}.  This section of the report will provide a summary of data collected as a result of the survey.  
 
 \begin{table}[h]
@@ -62,6 +56,8 @@ Size & Orbit Parameters & Orbit Determination \\ \hline
 Mass &  & Miscellaneous \\ \hline
 \end{tabular}
 \end{table}
+
+\section{Results of Survey}
 A market assessment conducted by SpaceWorks Enterprises, Inc. in 2014 showed that of the nanosatellites launched between 2009 and 2013, 47\% can be categorized as 1U CubeSats.  Although not enough information is given to determine how many 2U and 3U CubeSats have been launched, there seems to be a significant trend towards 3U CubeSat missions based on the information in Figure \ref{peryear}.  These results show the increase in CubeSat missions over recent years and gives reason to believe this trend will continue in the near future.
 
 \begin{figure}[h]
@@ -87,13 +83,13 @@ When considering verification and validation software, it is of most importance 
     \begin{subfigure}[t]{0.5\textwidth}
         \centering
         \frame{\includegraphics[height=2in,trim=0.1in 0.1in 0.1in 0.1in,clip]{Pie_Processors}}
-        \caption{Summary of all processors used}
+        \caption{Summary of processors used (Total: 55)}
     \end{subfigure}%
     ~ 
     \begin{subfigure}[t]{0.5\textwidth}
         \centering
         \frame{\includegraphics[height=2in,trim=0.1in 0.1in 0.1in 0.1in,clip]{Pie_PIC}}
-        \caption{Breakdown of PIC processors used}
+        \caption{Breakdown of PIC processors used (Total: 21)}
     \end{subfigure}
     \caption{Summary of processors used in CubeSats}
 		\label{processors}
@@ -104,14 +100,51 @@ As far as operating systems are concerned, Salvo and Linux were the two most com
 \begin{figure}[ht!]
 \centering
 \frame{\includegraphics[width=0.75\textwidth,trim=0.1in 0.1in 0.1in 0.1in,clip]{Pie_OS}}
-\caption{Results of survey showing the percentage of OS used in CubeSat missions}
+\caption{Results of survey showing the percentage of OS used in CubeSat missions (Total: 33)}
 \label{OS}
 \end{figure}
 
 \section{Discussion of Results}
-Based on the information collected from this survey, a majority of CubeSat missions have used PIC processors (specifically PIC18) with either Linux or Salvo operating systems.  The availability of Pumpkin CubeSat kits is likely a major contributor to these results, although this was not confirmed in this survey.  It is our recommendation that NASA IV\&V use their previous knowledge and experience with processors and operating systems to create their own verification and validation software.  Some aspects to consider are cost, user interface, and power requirements, each which will be determined by the nature of the mission.  However, it should be noted that the results of this survey lead us to believe that successful missions can be achieved through the use of PIC processors and Linux or Salvo operating systems.  As a reference, processor specifications are compared and summarized in TABLE (working on this).  
+Based on the information collected from this survey, a majority of CubeSat missions have used PIC processors (specifically PIC18) with either Linux or Salvo operating systems.  The availability of Pumpkin CubeSat kits is likely a major contributor to these results, although this was not confirmed in this survey.  It is our recommendation that NASA IV\&V use their previous knowledge and experience with processors and operating systems to create their own verification and validation software.  Some aspects to consider are cost, user interface, and power requirements, each which will be determined by the nature of the mission.  However, it should be noted that the results of this survey lead us to believe that successful missions can be achieved through the use of PIC processors and Linux or Salvo operating systems.  As a reference, processor specifications are compared and summarized in Table \ref{processorspecs}.  
+
+\begin{table}[h]
+\caption{Processor Specifications for Consideration}
+\label{processorspecs}
+\begin{tabular}{|l|l|l|l|}
+\hline
+\textbf{} & \textbf{Operating Frequency} & \textbf{Clock Speed} & \textbf{Program Memory} \\ \hline
+PIC18 & 40 MHz & 32 kHz & 16-32 KB \\ \hline
+PIC24 & 32 MHz & 32 kHz & 128-256 KB \\ \hline
+PIC32 & 50 MHz & 48 kHz & 16-256 KB \\ \hline
+PIC33 & 16 MHz & 32 kHz & 512 KB \\ \hline
+TI MPS430 & 24 MHz &  & 512 KB \\ \hline
+Atmel AT91SAM9 & 210 MHz &  &  \\ \hline
+Phytec phyCORE-LPC3250 & 208 MHz &  &  \\ \hline
+SiLabs 8051 & 50 MHz & 16 MHz & 32 KB \\ \hline
+Taskit Stamp9G20 & 132 MHz &  &  \\ \hline
+\end{tabular}
+\end{table}
 
 \section{Future Work}
+Evident in the agency’s 2015 budget estimate, it is clear that the future of CubeSats within NASA is very promising, at least in the near-term. The 2015 NASA budget indicates a twenty five million dollar allocation to CubeSat projects over the next five years [1]. In light of this, there are currently multiple open or future planned solicitations accepting CubeSat based mission proposals. In particular, a review of the NSPIRES website (nspires.nasaprs.com), shows at least three specific solicitations that request CubeSat proposals, listed in Table 1. 
+
+In addition to the \$25M line-item, NASA Earth Science Technology Office (ESTO) funds missions to validate technology through its In-Space Validation of Earth Science Technologies (InVEST) program. Currently InVEST is planning to spend thirteen million over four years on four 3U CubeSat missions [2]. One mission currently in development is ICECUBE or Earth-1, which is being built at Goddard Space Flight Center. 
+
+\begin{table}[h]
+\caption{CubeSat Proposal Outlines}
+\label{future}
+\begin{tabular}{|c|c|}
+\hline
+\multicolumn{2}{|c|}{\textbf{CubeSat Proposal Outlines}} \\ \hline
+Name & Description \\ \hline
+\begin{tabular}[c]{@{}c@{}}Remote Sensing Theory \\ for Earth Science\end{tabular} & \begin{tabular}[c]{@{}c@{}}Remote sensing science to establish \\ a theoretical basis for measuring\\ Earth surface properties using reflected, emitted, \\ and scattered electromagnetic radiation and \\ to develop the methodologies and technical\\ approaches to analyze and interpret such measurements \\ lies at the heart of NASA’s mission.\end{tabular} \\ \hline
+\begin{tabular}[c]{@{}c@{}}Heliophysics Technology and \\ Instrument Development for Science\end{tabular} & \begin{tabular}[c]{@{}c@{}}The H-TIDeS program solicits proposals for \\ investigations that are relevant to NASA's programs\\ in Heliophysics\end{tabular} \\ \hline
+\begin{tabular}[c]{@{}c@{}}Astrophysics Research \\ and Analysis,Program\end{tabular} & \begin{tabular}[c]{@{}c@{}}The Astrophysics Research and Analysis Program \\ (APRA) program solicits basic research proposals \\ for investigations that are relevant to NASA's\\ programs in astronomy and astrophysics and includes \\ research over the entire range of photons, gravitational \\ waves, and particle astrophysics.\end{tabular} \\ \hline
+\end{tabular}
+\end{table}
+
+Further, NASA’s interest in the future of CubeSats is evidenced in its plans to host a CubeSat based Centennial Challenge competition in order to spur the advancement of propulsion and communication technologies for deep space applications. Primarily, the challenge is designed to develop innovative ways to return error free data from deep space without government assistance, and to demonstrate lunar orbital plane change from equatorial to polar [3]. This Centennial challenge will inevitably lead to technology and knowledge that will advance the field beyond its current state. NASAs investment in this event demonstrates the agency’s commitment to the field. 
+     NASA is showing a great commitment to the use of CubeSats for rigorous scientific endeavors as demonstrated by the availability of funding opportunities and the development of a CubeSat Centennial Challenge. 
 
 
 \bibliographystyle{aiaa}
