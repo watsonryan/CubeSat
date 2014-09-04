@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.2)  4 SEP 2014 15:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.2)  4 SEP 2014 16:15
 entering extended mode
 **CubeSatSurvey_2.tex
 ("C:\Users\Miranda\Documents\GitHub\CubeSat\LaTeX Writeup\CubeSatSurvey_2.tex"
@@ -233,7 +233,7 @@ Package caption Info: End \AtBeginDocument code.
  <CubesatConfig.jpg, id=1, 481.8pt x 277.63725pt>
 File: CubesatConfig.jpg Graphic file (type jpg)
  <use CubesatConfig.jpg>
-Package pdftex.def Info: CubesatConfig.jpg used on input line 32.
+Package pdftex.def Info: CubesatConfig.jpg used on input line 31.
 (pdftex.def)             Requested size: 352.31625pt x 203.02936pt.
  [1
 
@@ -242,38 +242,48 @@ X Writeup/CubesatConfig.jpg>]
 <Bar_SizeYear.png, id=14, 685.8122pt x 497.60907pt>
 File: Bar_SizeYear.png Graphic file (type png)
  <use Bar_SizeYear.png>
-Package pdftex.def Info: Bar_SizeYear.png used on input line 64.
+Package pdftex.def Info: Bar_SizeYear.png used on input line 69.
 (pdftex.def)             Requested size: 352.31625pt x 253.54918pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 <Bar_Classes.png, id=16, 685.8122pt x 497.60907pt>
 File: Bar_Classes.png Graphic file (type png)
  <use Bar_Classes.png>
-Package pdftex.def Info: Bar_Classes.png used on input line 73.
+Package pdftex.def Info: Bar_Classes.png used on input line 78.
 (pdftex.def)             Requested size: 352.31625pt x 253.54918pt.
- [3 <C:/Users/Miranda/Documents/GitHub/CubeSat/LaTeX Writeup/Bar_SizeYear.png>] <Pie_Processors.png, id=22, 685.8122pt x
- 498.36188pt>
+ [3]
+<Pie_Processors.png, id=21, 685.8122pt x 498.36188pt>
 File: Pie_Processors.png Graphic file (type png)
  <use Pie_Processors.png>
-Package pdftex.def Info: Pie_Processors.png used on input line 84.
+Package pdftex.def Info: Pie_Processors.png used on input line 89.
 (pdftex.def)             Requested size: 200.52777pt x 144.54pt.
 
-<Pie_PIC.png, id=24, 685.8122pt x 498.36188pt>
+<Pie_PIC.png, id=23, 685.8122pt x 498.36188pt>
 File: Pie_PIC.png Graphic file (type png)
  <use Pie_PIC.png>
-Package pdftex.def Info: Pie_PIC.png used on input line 90.
+Package pdftex.def Info: Pie_PIC.png used on input line 95.
 (pdftex.def)             Requested size: 200.52777pt x 144.54pt.
 
-Overfull \hbox (4.86665pt too wide) in paragraph at lines 82--93
+Overfull \hbox (4.86665pt too wide) in paragraph at lines 87--98
  [][]  [] 
  []
 
-[4 <C:/Users/Miranda/Documents/GitHub/CubeSat/LaTeX Writeup/Bar_Classes.png> <C:/Users/Miranda/Documents/GitHub/CubeSat/
-LaTeX Writeup/Pie_Processors.png> <C:/Users/Miranda/Documents/GitHub/CubeSat/LaTeX Writeup/Pie_PIC.png>]
-<Pie_OS.png, id=32, 685.8122pt x 497.60907pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4 <C:/Users/Miranda/Documents/GitHub/CubeSat/LaTeX Writeup/Bar_SizeYear.png> <C:/Users/Miranda/Documents/GitHub/CubeSat
+/LaTeX Writeup/Bar_Classes.png>] <Pie_OS.png, id=30, 685.8122pt x 497.60907pt>
 File: Pie_OS.png Graphic file (type png)
  <use Pie_OS.png>
-Package pdftex.def Info: Pie_OS.png used on input line 101.
+Package pdftex.def Info: Pie_OS.png used on input line 106.
 (pdftex.def)             Requested size: 352.31625pt x 253.54918pt.
+ [5 <C:/Users/Miranda/Documents/GitHub/CubeSat/LaTeX Writeup/Pie_Processors.png> <C:/Users/Miranda/Documents/GitHub/Cube
+Sat/LaTeX Writeup/Pie_PIC.png> <C:/Users/Miranda/Documents/GitHub/CubeSat/LaTeX Writeup/Pie_OS.png>]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -281,34 +291,27 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-[5 <C:/Users/Miranda/Documents/GitHub/CubeSat/LaTeX Writeup/Pie_OS.png>]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
-
 ("C:\Users\Miranda\Documents\GitHub\CubeSat\LaTeX Writeup\CubeSatSurvey_2.bbl" [6]) [7]
 ("C:\Users\Miranda\Documents\GitHub\CubeSat\LaTeX Writeup\CubeSatSurvey_2.aux") ) 
 Here is how much of TeX's memory you used:
- 3381 strings out of 493921
- 50417 string characters out of 3144871
- 119977 words of memory out of 3000000
- 6662 multiletter control sequences out of 15000+200000
- 10364 words of font info for 37 fonts, out of 3000000 for 9000
+ 3386 strings out of 493921
+ 50472 string characters out of 3144871
+ 121977 words of memory out of 3000000
+ 6666 multiletter control sequences out of 15000+200000
+ 10710 words of font info for 38 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  36i,13n,38p,1068b,435s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/P
 rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on CubeSatSurvey_2.pdf (7 pages, 328187 bytes).
+blic/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on CubeSatSurvey_2.pdf (7 pages, 343841 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
+ 68 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
