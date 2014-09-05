@@ -19,13 +19,13 @@
 \maketitle
 
 \begin{abstract}
-In recent years, there has been a significant migration towards small satellite missions due to their reduced cost and development time.  Specifically, CubeSats have become increasingly popular not only in university environments, but government and private industries as well.  The standardization of these 10 cm CubeSats has also allowed for rideshare opportunities, thus finding a launch service provider is much simpler, allowing for more frequent access to space.  CubeSat standards also allow for commercial off the shelf (COTS) hardware components to be made available at reasonable prices, however there is no standard software as of 2014.  NASA Independent Verification and Validation (IV\&V) facility has requested a survey of CubeSats to provide additional insight into all previous CubeSat missions.  This information will assist them in developing a standard software to be used for all future IV\&V CubeSat missions as well as missions at NASA Goddard Space Flight Center (GSFC).
+In recent years, there has been a significant migration towards small satellite missions due to their reduced cost and development time.  Specifically, CubeSats have become increasingly popular not only in university environments, but in government and private industries as well.  The standardization of these 10 cm CubeSats has also allowed for rideshare opportunities, thus finding a launch service provider is much simpler, allowing for more frequent access to space.  CubeSat standards also allow for commercial off the shelf (COTS) hardware components to be made available at reasonable prices, however there is no standard software as of 2014.  NASA Independent Verification and Validation (IV\&V) facility has requested a survey of CubeSats to provide additional insight into all previous CubeSat missions.  This information will assist them in developing a standard software to be used for all future IV\&V CubeSat missions as well as missions at NASA Goddard Space Flight Center (GSFC).
 \end{abstract}
 
 \section{Introduction}
-The CubeSat Project, developed in 1999 by Professor Jordi Puig-Suari of California Polytechnic State University (Cal Poly), San Luis Obispo and Professor Bob Twiggs of Stanford University's Space Systems Development Laboratory (SSDL), was an initial attempt at standardizing design parameters for small satellites in order to reduce cost and development time.  As a result, these standards have allowed for more frequent launches and therefore easier access to space due to the low-budget nature of CubeSats \cite{CalPoly}.  The CubeSat Project outlines the standards required for CubeSat development while describing specific parameters (i.e. dimensions, mass, deployment mechanisms, etc.) that must be met for the spacecraft to qualify as a CubeSat.
+The CubeSat Project, developed in 1999 by Professor Jordi Puig-Suari of California Polytechnic State University (Cal Poly), San Luis Obispo and Professor Bob Twiggs of Stanford University's Space Systems Development Laboratory (SSDL), was an initial attempt at standardizing design parameters for small satellites in order to reduce cost and development time.  As a result, these standards have allowed for more frequent launches and therefore easier access to space due to the low-budget nature of CubeSats \cite{CalPoly}.  The CubeSat Project outlines the standards required for CubeSat development while describing specific parameters (i.e. dimensions, mass, deployment mechanisms, etc.) that must be met for the spacecraft to qualify as a CubeSat.  More general information about CubeSats may be found at cubesat.org.
 
-When considering dimensions, a 1U (1 unit) CubeSat must have the dimensions of 10cm x 10cm x 10cm.  Alternate configurations exist and include 2U and 3U CubeSats with dimensions of 10cm x 10cm x 20cm and 10cm x 10cm x 30cm, respectively (see Figure \ref{config}).  In addition to dimensions, mass limitations prohibit CubeSats from exceeding 1.3 kg per unit (U), meaning a 2U CubeSat must not exceed 2.6 kg while a 3U must not exceed 4.0 kg.  These limitations also limit the amount of power available for use on the spacecraft.  The specified dimensions pose limitations regarding the surface area available for solar panels.  Previous studies have shown that the average power of a CubeSat can vary from 1W (1U) and 5W (3U).  However, assuming the spacecraft still meets the mass requirements, deployable solar panels can be used to significantly increase the amount of available power (i.e. a 3U CubeSat with deployable panels can have up to 20W of available power) \cite{ClydeSpace}. 
+When considering dimensions, a 1U (1 unit) CubeSat must have the dimensions of 10cm x 10cm x 10cm.  Alternate configurations exist and include 2U and 3U CubeSats with dimensions of 10cm x 10cm x 20cm and 10cm x 10cm x 30cm, respectively (see Figure \ref{config}).  In addition to dimensions, mass limitations prohibit CubeSats from exceeding 1.3 kg per unit (U), meaning a 2U CubeSat must not exceed 2.6 kg while a 3U must not exceed 4.0 kg.  These standards also limit the amount of power available for use on the spacecraft.  The specified dimensions pose limitations regarding the surface area available for solar panels.  Previous studies have shown that the average power of a CubeSat can vary from 1W (1U) and 5W (3U).  However, assuming the spacecraft still meets the mass requirements, deployable solar panels can be used to significantly increase the amount of available power (i.e. a 3U CubeSat with deployable panels can have up to 20W of available power) \cite{ClydeSpace}. 
 
 \begin{figure}[ht!]
 \centering
@@ -39,12 +39,12 @@ CubeSats that meet dimension and mass requirements can be launched from the Poly
 The standards developed by Cal Poly have resulted in a significant increase in the number of small satellite missions launched over the past few years \cite{MarketAssessment}.  This is partially due to the development of commercial off-the-shelf (COTS) components specifically designed to meet all CubeSat requirements.  Because of this, CubeSats have become relatively inexpensive, making them ideal educational tools in university and classroom settings.  With the development of COTS components, there are a variety of options for various processors and operating systems; however, these options may not always meet the criteria required for various missions.  It is for this reason that NASA IV\&V has been asked to develop a portable, pure software build-and-test system that will provide the capability to develop, debug, and test software on a standard personal computer with no specialized hardware.  Once this is developed, it is expected to be used in collaboration with NASA GSFC's SpaceCube development and testing. 
 
 \section{Methodology}
-To determine possible options for a standardized NASA IV\&V software, a comprehensive survey was conducted on past, present, and future CubeSat missions.  This survey initially consisted of all CubeSat missions able to be found online and totaled slightly over 250 missions.  For this particular report, it was decided that the focus would be on domestic missions which narrowed the search to approximately 150 missions, some of which had been launched while others were still only proposed concepts.  This list was consolidated once more to focus on already launched missions as well as missions with launch services confirmed in upcoming years.  
+To determine possible options for a standardized NASA IV\&V software, a comprehensive survey was conducted on past, present, and future CubeSat missions.  This survey initially consisted of all CubeSat missions the research team could find - totalling slightly over 250 missions.  For this particular report, it was decided that the focus would be on domestic missions which narrowed the search to approximately 150 missions, some of which had been launched while others were still only proposed concepts.  This list was consolidated once more to focus on already launched missions as well as missions with launch services confirmed in upcoming years.  
 As a result, a comprehensive list of approximately 115 CubeSats has been developed.  
 
-To gather information, the first step involved creating a list of desired mission details.  This information can be categorized as shown in Table \ref{summary}.  A first pass of obtaining data was accomplished by thoroughly searching the internet, although a significant amount of data was left incomplete.  As a second pass, the project managers of each mission were emailed and asked specifically for information regarding data of potential interest to NASA IV\&V as well as any other applicable information or further references.  This helped fill in a significant amount of missing data which was used to create a spreadsheet of all collected data.  This spreadsheet will be provided electronically upon delivery of this report and includes all data collected in the categories described in Table \ref{summary}.
+To gather information, the first step involved creating a list of desired mission details.  This information can be categorized as shown in Table \ref{summary}.  A first pass of obtaining data was accomplished by thoroughly searching the internet, although a significant amount of data was left incomplete.  As a second pass, the project managers of each mission were emailed and asked specifically for information regarding data of potential interest to NASA IV\&V as well as any other applicable information or further references.  This helped fill in a significant amount of missing data which was used to create a spreadsheet that will be provided electronically upon delivery of this report and includes all data collected in the categories described in Table \ref{summary}.
 
-It should be noted that despite all efforts made in this project, the results of this survey only provide estimates used to identify trends in the presented data.  For example, many of the surveyed missions were conducted by universities with limited budgets while others were sponsored by private companies or government agencies with higher budgets, largely limiting the type of hardware chosen for the mission.  This should be considered when analyzing numerical data obtained from this survey and will hopefully be made prominent through the discussion of results. 
+It should be noted that despite all efforts made in this project, the results of this survey only provide estimates used to identify trends in the presented data.  For example, many of the surveyed missions were conducted by universities with limited budgets while others were sponsored by private companies or government agencies with higher budgets.  This should be considered when analyzing numerical data obtained from this survey and will hopefully be made prominent through the discussion of results. 
 
 \begin{table}[h]
 \small
@@ -64,8 +64,9 @@ Mass &  & Miscellaneous \\ \hline
 \end{tabular}
 \end{table}
 
-\section{Results of Survey}
-A market assessment conducted by SpaceWorks Enterprises, Inc. in 2014 showed that of the nanosatellites launched between 2009 and 2013, 47\% can be categorized as 1U CubeSats \cite{MarketAssessment}.  Although not enough information is given to determine how many 2U and 3U CubeSats have been launched, there seems to be a significant trend towards 3U CubeSat missions based on the information in Figure \ref{peryear}.  These results show the increase in CubeSat missions over recent years and gives reason to believe this trend will continue in the near future.
+\section{Results of Survey \& Discussion}
+\subsection{Analysis of CubeSat Market and Survey Sample Set}
+A market assessment conducted by SpaceWorks Enterprises, Inc. in 2014 showed that of the nanosatellites launched between 2009 and 2013, 47\% can be categorized as 1U CubeSats \cite{MarketAssessment}.  Although not enough information is given to determine how many 2U and 3U CubeSats have been launched, there seems to be a significant trend towards 3U CubeSat missions based on the information in Figure \ref{peryear}.  These results show the increase in overall CubeSat missions and gives reason to believe this trend will continue in the near future.
 
 \begin{figure}[h]
 \centering
@@ -74,66 +75,35 @@ A market assessment conducted by SpaceWorks Enterprises, Inc. in 2014 showed tha
 \label{peryear}
 \end{figure}
 
-As mentioned above, is important to note that due to the way in which data for this survey was compiled, we were not able to gather all of the information for every CubeSat mission launched. This is primarily due to principle investigators of individual CubeSat missions not responding to our requests for information.  Their lack of response could be due to a myriad of reasons; it is possible that the principle investigator infrequently check their email inbox, or that they would simply like to keep their information private. 
+Figure \ref{classperyear} shows the total number of U.S. CubeSats launched per year, divided by class (i.e. private, government, university, military, etc.).  From this graph, it is evident that a majority of launches have been for university missions and educational purposes;  however there has been a significant increase seen in government missions as well as privately funded missions.  
 
-Since our survey data set does not encapsulate the total CubeSat data set, we need to ensure that our data properly represents the total data set. This needs to be done so that wide sweeping inferences are not made from skewed data. Figure \ref{classperyear} shows the number of U.S. CubeSats launched per year based on class (i.e. private, government, university, military, etc.).  From this graph, it is evident that a majority of launches have been for university missions and educational purposes.  However, there has been a significant increase seen in government missions as well as privately funded missions.  
-
-\begin{figure}[t!]
+\begin{figure}[ht!]
 \centering
 \frame{\includegraphics[width=0.75\textwidth,trim=0.1in 0.1in 0.1in 0.1in,clip]{Bar_Classes}}
 \caption{Results of survey showing the number of U.S. CubeSats launched per year, divided by class, as of August 2014 (based on 116 CubeSats with applicable data)}
 \label{classperyear}
 \end{figure}
 
-To verify this data, both the sample data set and the total data set were broken down per year by class. This was done so that a yearly comparison between the two data sets of each class could be conducted. Once the data was separated per class by year, the sample data set and the total data sets were plotted on the same graph so that the correlation, or lack thereof, could be seen. The correlation between the sample data set and the total data set is summarized in Table \ref{correlation} and can be seen in Figures \ref{military} through \ref{university}. 
-
-\begin{table}[h]
-\small
-\centering
-\caption{Correlation of classes between sampled data and total data}
-\label{correlation}
-%\resizebox{\textwidth}{!}{%
-\begin{tabular}{|c|c|}
-\hline
-\textbf{Class} & \textbf{Correlation} \\ \hline
-Military & 0.1273 \\ \hline
-Government & 0.0458 \\ \hline
-Private & 0.3208 \\ \hline
-University & 0.2895 \\ \hline
-\end{tabular}
-\end{table}
-
-\begin{figure}[ht!]
-\centering
-\frame{\includegraphics[width=0.75\textwidth,trim=0.1in 0.1in 0.1in 0.1in,clip]{Military}}
-\caption{Correlation of Military Mission Data}
-\label{military}
+\begin{figure}[h!]\label{pieclasses}
+    \centering
+    \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \frame{\includegraphics[height=2in,trim=0.1in 0.1in 0.1in 0.1in,clip]{Pie_Total}}
+        \caption{Results from Total Data Set}
+    \end{subfigure}%
+    ~ 
+    \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \frame{\includegraphics[height=2in,trim=0.1in 0.1in 0.1in 0.1in,clip]{Pie_Sample}}
+        \caption{Results from Sample Data Set}
+    \end{subfigure}
+    \caption{Comparison of CubeSat class percentages based on data from all information collected and the sample set in which processor information was known.}
 \end{figure}
 
-\begin{figure}[ht!]
-\centering
-\frame{\includegraphics[width=0.75\textwidth,trim=0.1in 0.1in 0.1in 0.1in,clip]{CivilianGovernment}}
-\caption{Correlation of Civilian Government Mission Data}
-\label{gov}
-\end{figure}
+Since the collected data providing processor information does not encapsulate the total CubeSat data set, it is important to point out that data may be skewed.  It was believed that a majority of collected data came from university missions due to the missions being largely educational with project managers willing to provide information to other organizations.  Military and government missions are more likely to be less available due to various restrictions which also would cause results to encompass mostly university missions.  However, upon further investigation, it was found that the sampled data set was similar to that total data set as seen in Figure 4. 
 
-\begin{figure}[ht!]
-\centering
-\frame{\includegraphics[width=0.75\textwidth,trim=0.1in 0.1in 0.1in 0.1in,clip]{Private}}
-\caption{Correlation of Private Mission Data}
-\label{private}
-\end{figure}
-
-\begin{figure}[ht!]
-\centering
-\frame{\includegraphics[width=0.75\textwidth,trim=0.1in 0.1in 0.1in 0.1in,clip]{University}}
-\caption{Correlation of University Mission Data}
-\label{university}
-\end{figure}
-
-From Table \ref{correlation}, it can be seen that the subset of data compiled for this report is not a great approximation of the total data set.  For this reason wide sweeping generalizations cannot be made from the analysis of the data. For the purposes of IV\&V, we decided to do a separate analysis of the sub-set of our data that is comprised of only NASA built CubeSat missions. 
-
-Despite the low correlation between data, verification and validation software was still considered.  For this report, it is assumed that it is most important to IV\&V to determine the processor and operating system used for as many CubeSat missions as possible.  This will provide insight into which processors are most effective and capable of ensuring successful mission operations.  Based on the 55 missions where processor data was attainable, almost 40\% of these missions utilized PIC processors.  Of these processors, 52\% used the PIC18.  These results are summarized in Figure \ref{processors}.  Upon further investigation, it was concluded that 90\% of the PIC18 processors were used in 1U missions.  Figure \ref{list} in the Appendix shows an abbreviated list of CubeSat missions sorted by size to show the trend of processors used.  In addition, it should be noted that Pumpkin currently provides Pluggable Processor Modules (PPM) available with their CubeSat Kit and is capable of incorporating the following processors into the flight module:  SiLabs C805, PIC24, PIC33, and TI MSP430.  Again, many factors were not accounted for in this analysis (i.e. budget, development time, cost of materials, etc.) and these could have played a key role in determining the processors chosen for each mission.  Obviously missions with larger budgets will be able to afford higher quality components compared to missions with limited budgets.
+\subsection{Flight Processors}
+For this report, it is assumed that processors and operating systems are of most importance to NASA IV\&V.  This will provide insight into which processors are most popular within the CubeSat community and will allow IV\&V to develop approaches with the widest possible impact.  Based on the 55 missions where processor data was attainable, almost 40\% of these missions utilized PIC processors.  Of these processors, 52\% used the PIC18.  These results are summarized in Figure \ref{processors}.  Upon further investigation, it was concluded that 90\% of the PIC18 processors were used in 1U missions.  Table \ref{list} in the Appendix shows an abbreviated list of CubeSat missions sorted by size to show the trend of processors used.  It is also important to note that Pumpkin currently provides Pluggable Processor Modules (PPM) available with their CubeSat Kit and is capable of incorporating the following processors into the flight module:  SiLabs C805, PIC24, PIC33, and TI MSP430.  The convenience of purchasing processors with a Pumpkin CubeSat Kit may play a key role in processor trends, especially for 1U CubeSats, although many factors were not accounted for in this analysis (i.e. budget, development time, cost of materials, etc.) and  could have played a key role in determining the processors as well.
 
 \begin{figure}[h!]
     \centering
@@ -152,26 +122,37 @@ Despite the low correlation between data, verification and validation software w
 		\label{processors}
 \end{figure}
 
-As far as operating systems are concerned, Salvo and Linux were the two most commonly used in the CubeSat missions surveyed.  Salvo is available with the purchase of any Pumpkin PPM and is included with the purchase of a Pumpkin CubeSat Kit.  Most processors provide various options for programming and therefore no concrete conclusion can be made as to which operating system should be used by IV\&V.
-
+To counter the potential skewness presented by the large percentage of university missions when considering processors, Figure \ref{nonuniv} shows the percentage of processors used on all non-university missions.  However, the results were once again consistent such that PIC processors totaled over 50\% of all processor data recorded.
+ 
 \begin{figure}[ht!]
+\centering
+\frame{\includegraphics[width=0.75\textwidth,trim=0.1in 0.1in 0.1in 0.1in,clip]{nonuniv}}
+\caption{Results of survey showing the processors used for non-university missions (Total: 14)}
+\label{nonuniv}
+\end{figure}
+
+\subsection{Operating Systems}
+Salvo and Linux were the two most commonly used operating systems in the CubeSat missions surveyed.  Salvo is available with the purchase of any Pumpkin PPM and is included with the purchase of a Pumpkin CubeSat Kit.  Most processors provide various options for programming and therefore no concrete conclusion can be made as to which operating system should be used by IV\&V.
+
+\begin{figure}[h !]
 \centering
 \frame{\includegraphics[width=0.75\textwidth,trim=0.1in 0.1in 0.1in 0.1in,clip]{Pie_OS}}
 \caption{Results of survey showing the percentage of OS used in CubeSat missions (Total: 33)}
 \label{OS}
 \end{figure}
 
-\section{Discussion of Results}
-Based on the information collected from this survey, a majority of CubeSat missions have used PIC processors (specifically PIC18) with either Linux or Salvo operating systems.  The availability of Pumpkin CubeSat kits is likely a major contributor to these results, although this was not confirmed in this survey.  As mentioned before, the results of this survey do not take into consideration factors such as budget, time constraints, component availability, etc. so it is our recommendation that NASA IV\&V use their previous knowledge and experience with processors and operating systems to create their own verification and validation software.  As seen in Table \ref{processors}, the operating frequency and allocated memory vary significantly and is strongly related to cost.  Therefore, some crucial aspects to consider when choosing a processor are cost, user interface, and power requirements, each of which will be determined by the nature of the mission.  In addition, it is worth noting that the results of this survey lead us to believe that successful missions can be achieved through the use of PIC processors and Linux or Salvo operating systems.  Electronically attached to this report are data sheets for the processors used in this survey.
+\subsection{Discussion}
+Based on the information collected from this survey, a majority of CubeSat missions have used PIC processors (specifically PIC18) with either Linux or Salvo operating systems.  The availability of Pumpkin CubeSat kits is likely a major contributor to these results, although this was not confirmed in this survey.  As mentioned before, the results of this survey do not take into consideration factors such as budget, time constraints, component availability, etc. so it is our recommendation that NASA IV\&V use their previous knowledge and experience with processors and operating systems to create their own verification and validation software.  Some crucial aspects to consider when choosing a processor are cost, user interface, and power requirements, each of which will be determined by the nature of the mission.  In addition, it is worth noting that the results of this survey lead us to believe that successful missions can be achieved through the use of PIC processors and Linux or Salvo operating systems.  Electronically attached to this report are data sheets for the processors used in this survey.
 
 \begin{table}[h]
 \centering
+
 \caption{Processor Specifications}
 \label{procspecs}
-\resizebox{\textwidth}{!}{%
+\resizebox{\textwidth}{!}{
 \begin{tabular}{|c|c|c|c|}
 \hline
-\textbf{Processor} & \textbf{\begin{tabular}[c]{@{}c@{}}Max. Operating \\ Frequency (MHz)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Max. Program \\ Memory (KB)\end{tabular}} & \textbf{Clock Speed} \\ \hline
+\textbf{Processor} & \textbf{Max. Operating Frequency (MHz)} & \textbf{Max. Program Memory (KB)} & \textbf{Clock Speed} \\ \hline
 PIC18 & 40 & 32 & 32 kHz \\ \hline
 PIC24 & 32 & 256 & 32 kHz \\ \hline
 PIC32 & 50 & 256 & 32 kHz \\ \hline
@@ -188,15 +169,15 @@ Taskit Stamp9G20 & 396 & 32 & 32 kHz \\ \hline
 \end{table}
 
 \section{Future Work}
-Evident in the agency's 2015 budget estimate, it is clear that the future of CubeSats within NASA is very promising, at least in the near-term. The 2015 NASA budget indicates a twenty five million dollar allocation to CubeSat projects over the next five years \cite{budget}. In light of this, there are currently multiple open or future planned solicitations accepting CubeSat based mission proposals. In particular, a review of the NSPIRES website (nspires.nasaprs.com), shows at least three specific solicitations that request CubeSat proposals, listed in Table \ref{future}. 
+Evident in the NASA's FY 2015 budget request is the agency's near-term interest in CubeSats. The requested 2015 NASA budget indicates a \$25M allocation to CubeSat projects over the next five years \cite{budget}. In light of this, there are currently multiple open or future planned solicitations accepting CubeSat based mission proposals. In particular, a review of the NSPIRES website (nspires.nasaprs.com), shows at least three specific solicitations that request CubeSat proposals, listed in Table \ref{future}. 
 
-In addition to the \$25M line-item, NASA Earth Science Technology Office (ESTO) funds missions to validate technology through its In-Space Validation of Earth Science Technologies (InVEST) program. Currently InVEST is planning to spend thirteen million over four years on four 3U CubeSat missions \cite{klumpar}. One mission currently in development is ICECUBE or Earth-1, which is being built at Goddard Space Flight Center. 
+In addition to the \$25M line-item, NASA Earth Science Technology Office (ESTO) funds missions to validate technology through its In-Space Validation of Earth Science Technologies (InVEST) program. Currently InVEST is planning to spend \$13M over four years on four 3U CubeSat missions \cite{klumpar}. One mission currently in development is ICECUBE or Earth-1, which is being built at Goddard Space Flight Center. 
 
 \begin{table}[h]
 \caption{CubeSat Proposal Opportunities}
 \label{future}
 \centering
-\resizebox{\textwidth}{!}{%
+\resizebox{\textwidth}{!}{
 \begin{tabular}{|p{2.0in}|l|p{5.0in}|}
 \hline
 \multicolumn{3}{|c|}{\textbf{CubeSat Proposal Opportunities}} \\ \hline
@@ -216,15 +197,9 @@ Further, NASA’s interest in the future of CubeSats is evidenced in its plans t
 
 NASA is showing a great commitment to the use of CubeSats for rigorous scientific endeavors as demonstrated by the availability of funding opportunities and the development of a CubeSat Centennial Challenge. 
 
+\newpage
 \section{Appendix}
 
-%\begin{table}[h]
-%\caption{Abbreviated summary of CubeSat missions grouped by size, displaying launch date, processor used, and operating system used}
-%\label{list}
-%\resizebox{\textwidth}{!}{%
-%\begin{tabular}{|l|l|l|l|l|}
-%\hline
-%\textbf{Name of Satellite} & \textbf{Size} & \textbf{Launch Date} & \textbf{Processor} & \textbf{OS} \\ \hline
 \begin{center}
 \begin{longtable}{|l|l|l|l|l|}
 \caption{Abbreviated summary of CubeSat missions grouped by size, displaying launch date, processor used, and operating system used} 
