@@ -1,0 +1,34 @@
+\begin{thebibliography}{1}
+\newcommand{\enquote}[1]{``#1''}
+
+\bibitem{CalPoly}
+{California Polytechnic State University, San Luis Obispo}, \enquote{{CubeSat
+  Design Specifications Rev. 13},} February 2014.
+
+\bibitem{ClydeSpace}
+Clark, C. and Logan, R., \enquote{{Power Budgets for Mission Success},}
+  ClydeSpace, April 2011.
+
+\bibitem{configimage}
+Naik, S.~R., \enquote{{CubeSat Constellation around Mars},} 2011.
+
+\bibitem{SmSCTech}
+{Mission Design Division Staff}, \enquote{{Small Spacecraft Technology State of
+  the Art},} Tech. rep., {NASA Ames Research Center}, July 2014.
+
+\bibitem{MarketAssessment}
+Buchen, E. and DePasquale, D., \enquote{{2014 Nano/Microsatellite Market
+  Assessment},} SpaceWorks Enterprises, Inc., 2011.
+
+\bibitem{budget}
+\enquote{{FY 2015 President's Budget Request Summary},} 2014.
+
+\bibitem{klumpar}
+Klumpar, D.~M., \enquote{{An Enhanced Role for Scientific CubeSats at NASA},}
+  {\em Cal-Poly Annual Meeting for CubeSat Developers\/}, April 2014.
+
+\bibitem{solicitation}
+\enquote{{NASA Centennial Challenges Program - Small Spacecraft Challenges},}
+  February 2014.
+
+\end{thebibliography}

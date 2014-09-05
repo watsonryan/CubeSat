@@ -1,18 +1,12 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.2)  4 SEP 2014 16:15
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.5.24)  4 SEP 2014 21:04
 entering extended mode
 **CubeSatSurvey_2.tex
 ("C:\Users\Miranda\Documents\GitHub\CubeSat\LaTeX Writeup\CubeSatSurvey_2.tex"
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, arabic, armenian, assamese, basque, bengali
-, bokmal, bulgarian, catalan, coptic, croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, galic
-ian, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, icelandic, indonesian, interlingua, irish, italian,
- kannada, kurmanji, latin, latvian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, ngerman
--x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, romanian, russian, sanskrit, serbian, slovak, sloven
-ian, spanish, swedish, swissgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usenglishmax, w
-elsh, loaded.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 68 languages loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size11.clo"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
 File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -26,25 +20,22 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks14
 \ex@=\dimen103
-))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen104
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count87
@@ -85,22 +76,22 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(C:\Users\Miranda\AppData\Roaming\MiKTeX\2.9\tex\latex\geometry-de\geometry.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count99
@@ -116,28 +107,26 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen119
 \Gm@dimlist=\toks20
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count102
@@ -145,10 +134,9 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen120
 \Gin@req@width=\dimen121
 )
-(C:\Users\Miranda\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
-
-(C:\Users\Miranda\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen122
@@ -160,8 +148,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \caption@hangindent=\dimen128
 )
 \c@ContinuedFloat=\count103
-)
-(C:\Users\Miranda\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\subcaption.sty
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
 Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 \c@subfigure=\count104
 \c@subtable=\count105
@@ -214,7 +201,7 @@ LaTeX Font Info:    ... okay on input line 17.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(C:\Users\Miranda\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count106
 \scratchdimen=\dimen129
@@ -230,88 +217,23 @@ LaTeX Font Info:    ... okay on input line 17.
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- <CubesatConfig.jpg, id=1, 481.8pt x 277.63725pt>
-File: CubesatConfig.jpg Graphic file (type jpg)
- <use CubesatConfig.jpg>
-Package pdftex.def Info: CubesatConfig.jpg used on input line 31.
-(pdftex.def)             Requested size: 352.31625pt x 203.02936pt.
- [1
 
-{C:/Users/Miranda/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2 <C:/Users/Miranda/Documents/GitHub/CubeSat/LaTe
-X Writeup/CubesatConfig.jpg>]
-<Bar_SizeYear.png, id=14, 685.8122pt x 497.60907pt>
-File: Bar_SizeYear.png Graphic file (type png)
- <use Bar_SizeYear.png>
-Package pdftex.def Info: Bar_SizeYear.png used on input line 69.
-(pdftex.def)             Requested size: 352.31625pt x 253.54918pt.
+! I can't write on file `CubeSatSurvey_2.pdf'.
+Please type another file name for output
+! Emergency stop.
+<argument> ...stobj \GPT@objref }}}\fi \pdfximage 
+                                                  \GPT@RuleAttr \ifx \GPT@pa...
+l.31 ...hics[width=0.75\textwidth]{CubesatConfig}}
+                                                  
+*** (job aborted, file error in nonstop mode)
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Bar_Classes.png, id=16, 685.8122pt x 497.60907pt>
-File: Bar_Classes.png Graphic file (type png)
- <use Bar_Classes.png>
-Package pdftex.def Info: Bar_Classes.png used on input line 78.
-(pdftex.def)             Requested size: 352.31625pt x 253.54918pt.
- [3]
-<Pie_Processors.png, id=21, 685.8122pt x 498.36188pt>
-File: Pie_Processors.png Graphic file (type png)
- <use Pie_Processors.png>
-Package pdftex.def Info: Pie_Processors.png used on input line 89.
-(pdftex.def)             Requested size: 200.52777pt x 144.54pt.
-
-<Pie_PIC.png, id=23, 685.8122pt x 498.36188pt>
-File: Pie_PIC.png Graphic file (type png)
- <use Pie_PIC.png>
-Package pdftex.def Info: Pie_PIC.png used on input line 95.
-(pdftex.def)             Requested size: 200.52777pt x 144.54pt.
-
-Overfull \hbox (4.86665pt too wide) in paragraph at lines 87--98
- [][]  [] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[4 <C:/Users/Miranda/Documents/GitHub/CubeSat/LaTeX Writeup/Bar_SizeYear.png> <C:/Users/Miranda/Documents/GitHub/CubeSat
-/LaTeX Writeup/Bar_Classes.png>] <Pie_OS.png, id=30, 685.8122pt x 497.60907pt>
-File: Pie_OS.png Graphic file (type png)
- <use Pie_OS.png>
-Package pdftex.def Info: Pie_OS.png used on input line 106.
-(pdftex.def)             Requested size: 352.31625pt x 253.54918pt.
- [5 <C:/Users/Miranda/Documents/GitHub/CubeSat/LaTeX Writeup/Pie_Processors.png> <C:/Users/Miranda/Documents/GitHub/Cube
-Sat/LaTeX Writeup/Pie_PIC.png> <C:/Users/Miranda/Documents/GitHub/CubeSat/LaTeX Writeup/Pie_OS.png>]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
-("C:\Users\Miranda\Documents\GitHub\CubeSat\LaTeX Writeup\CubeSatSurvey_2.bbl" [6]) [7]
-("C:\Users\Miranda\Documents\GitHub\CubeSat\LaTeX Writeup\CubeSatSurvey_2.aux") ) 
+ 
 Here is how much of TeX's memory you used:
- 3386 strings out of 493921
- 50472 string characters out of 3144871
- 121977 words of memory out of 3000000
- 6666 multiletter control sequences out of 15000+200000
- 10710 words of font info for 38 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 36i,13n,38p,1068b,435s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on CubeSatSurvey_2.pdf (7 pages, 343841 bytes).
-PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 3330 strings out of 493706
+ 48794 string characters out of 3144577
+ 119299 words of memory out of 3000000
+ 6651 multiletter control sequences out of 15000+200000
+ 9216 words of font info for 33 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 36i,6n,38p,1022b,238s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
