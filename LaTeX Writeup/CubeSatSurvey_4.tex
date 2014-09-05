@@ -1,6 +1,6 @@
 \title{\textbf{CubeSat Survey}}
 \author{
-        \textit{Miranda Straub, Ryan Watson, John A. Christian, and Jason N. Gross}\\
+        \textbf{\textit{Miranda Straub, Ryan Watson, John A. Christian, and Jason N. Gross}}\\
         Department of Mechanical and Aerospace Engineering\\
         West Virginia University\\
         Morgantown, WV 26505
@@ -13,6 +13,7 @@
 \usepackage{graphicx}
 \usepackage{caption}
 \usepackage{subcaption}
+\usepackage{longtable}
 
 \begin{document}
 \maketitle
@@ -46,6 +47,7 @@ To gather information, the first step involved creating a list of desired missio
 It should be noted that despite all efforts made in this project, the results of this survey only provide estimates used to identify trends in the presented data.  For example, many of the surveyed missions were conducted by universities with limited budgets while others were sponsored by private companies or government agencies with higher budgets, largely limiting the type of hardware chosen for the mission.  This should be considered when analyzing numerical data obtained from this survey and will hopefully be made prominent through the discussion of results. 
 
 \begin{table}[h]
+\small
 \centering
 \caption{Summary of Data Collected for CubeSat Survey}
 \label{summary}
@@ -86,6 +88,7 @@ Since our survey data set does not encapsulate the total CubeSat data set, we ne
 To verify this data, both the sample data set and the total data set were broken down per year by class. This was done so that a yearly comparison between the two data sets of each class could be conducted. Once the data was separated per class by year, the sample data set and the total data sets were plotted on the same graph so that the correlation, or lack thereof, could be seen. The correlation between the sample data set and the total data set is summarized in Table \ref{correlation} and can be seen in Figures \ref{military} through \ref{university}. 
 
 \begin{table}[h]
+\small
 \centering
 \caption{Correlation of classes between sampled data and total data}
 \label{correlation}
@@ -130,7 +133,7 @@ University & 0.2895 \\ \hline
 
 From Table \ref{correlation}, it can be seen that the subset of data compiled for this report is not a great approximation of the total data set.  For this reason wide sweeping generalizations cannot be made from the analysis of the data. For the purposes of IV\&V, we decided to do a separate analysis of the sub-set of our data that is comprised of only NASA built CubeSat missions. 
 
-Despite the low correlation between data, verification and validation software was still considered.  For this report, it is assumed that it is most important to IV\&V to determine the processor and operating system used for as many CubeSat missions as possible.  This will provide insight into which processors are most effective and capable of ensuring successful mission operations.  Based on the 55 missions where processor data was attainable, almost 40\% of these missions utilized PIC processors.  Of these processors, 52\% used the PIC18.  These results are summarized in Figure \ref{processors}.  In addition, it should be noted that of these processors, Pumpkin currently provides Pluggable Processor Modules (PPM) available with their CubeSat Kit which is capable of incorporating the following processors with the flight module:  SiLabs C805, PIC24, PIC33, and TI MSP430.  Again, many factors were not accounted for in this analysis (i.e. budget, development time, cost of materials, etc.) and these could have played a key role in determining the processors chosen for each mission.  Obviously missions with larger budgets will be able to afford higher quality components compared to missions with limited budgets.
+Despite the low correlation between data, verification and validation software was still considered.  For this report, it is assumed that it is most important to IV\&V to determine the processor and operating system used for as many CubeSat missions as possible.  This will provide insight into which processors are most effective and capable of ensuring successful mission operations.  Based on the 55 missions where processor data was attainable, almost 40\% of these missions utilized PIC processors.  Of these processors, 52\% used the PIC18.  These results are summarized in Figure \ref{processors}.  Upon further investigation, it was concluded that 90\% of the PIC18 processors were used in 1U missions.  Figure \ref{list} in the Appendix shows an abbreviated list of CubeSat missions sorted by size to show the trend of processors used.  In addition, it should be noted that Pumpkin currently provides Pluggable Processor Modules (PPM) available with their CubeSat Kit and is capable of incorporating the following processors into the flight module:  SiLabs C805, PIC24, PIC33, and TI MSP430.  Again, many factors were not accounted for in this analysis (i.e. budget, development time, cost of materials, etc.) and these could have played a key role in determining the processors chosen for each mission.  Obviously missions with larger budgets will be able to afford higher quality components compared to missions with limited budgets.
 
 \begin{figure}[h!]
     \centering
@@ -159,7 +162,7 @@ As far as operating systems are concerned, Salvo and Linux were the two most com
 \end{figure}
 
 \section{Discussion of Results}
-Based on the information collected from this survey, a majority of CubeSat missions have used PIC processors (specifically PIC18) with either Linux or Salvo operating systems.  The availability of Pumpkin CubeSat kits is likely a major contributor to these results, although this was not confirmed in this survey.  It is our recommendation that NASA IV\&V use their previous knowledge and experience with processors and operating systems to create their own verification and validation software.  Some aspects to consider are cost, user interface, and power requirements, each which will be determined by the nature of the mission.  However, it should be noted that the results of this survey lead us to believe that successful missions can be achieved through the use of PIC processors and Linux or Salvo operating systems.  As a reference, processor specifications are compared and summarized in Table \ref{procspecs}.  Data sheets for these processors will be included with the electronic submission of this report.
+Based on the information collected from this survey, a majority of CubeSat missions have used PIC processors (specifically PIC18) with either Linux or Salvo operating systems.  The availability of Pumpkin CubeSat kits is likely a major contributor to these results, although this was not confirmed in this survey.  As mentioned before, the results of this survey do not take into consideration factors such as budget, time constraints, component availability, etc. so it is our recommendation that NASA IV\&V use their previous knowledge and experience with processors and operating systems to create their own verification and validation software.  As seen in Table \ref{processors}, the operating frequency and allocated memory vary significantly and is strongly related to cost.  Therefore, some crucial aspects to consider when choosing a processor are cost, user interface, and power requirements, each of which will be determined by the nature of the mission.  In addition, it is worth noting that the results of this survey lead us to believe that successful missions can be achieved through the use of PIC processors and Linux or Salvo operating systems.  Electronically attached to this report are data sheets for the processors used in this survey.
 
 \begin{table}[h]
 \centering
@@ -190,24 +193,114 @@ Evident in the agency's 2015 budget estimate, it is clear that the future of Cub
 In addition to the \$25M line-item, NASA Earth Science Technology Office (ESTO) funds missions to validate technology through its In-Space Validation of Earth Science Technologies (InVEST) program. Currently InVEST is planning to spend thirteen million over four years on four 3U CubeSat missions \cite{klumpar}. One mission currently in development is ICECUBE or Earth-1, which is being built at Goddard Space Flight Center. 
 
 \begin{table}[h]
-\caption{CubeSat Proposal Outlines}
+\caption{CubeSat Proposal Opportunities}
 \label{future}
-\begin{tabular}{|c|c|}
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|p{2.0in}|l|p{5.0in}|}
 \hline
-\multicolumn{2}{|c|}{\textbf{CubeSat Proposal Outlines}} \\ \hline
-Name & Description \\ \hline
-\begin{tabular}[c]{@{}c@{}}Remote Sensing Theory \\ for Earth Science\end{tabular} & \begin{tabular}[c]{@{}c@{}}Remote sensing science to establish \\ a theoretical basis for measuring\\ Earth surface properties using reflected, emitted, \\ and scattered electromagnetic radiation and \\ to develop the methodologies and technical\\ approaches to analyze and interpret such measurements \\ lies at the heart of NASA’s mission.\end{tabular} \\ \hline
-\begin{tabular}[c]{@{}c@{}}Heliophysics Technology and \\ Instrument Development for Science\end{tabular} & \begin{tabular}[c]{@{}c@{}}The H-TIDeS program solicits proposals for \\ investigations that are relevant to NASA's programs\\ in Heliophysics.\end{tabular} \\ \hline
-\begin{tabular}[c]{@{}c@{}}Astrophysics Research \\ and Analysis,Program\end{tabular} & \begin{tabular}[c]{@{}c@{}}The Astrophysics Research and Analysis Program \\ (APRA) program solicits basic research proposals \\ for investigations that are relevant to NASA's\\ programs in astronomy and astrophysics and includes \\ research over the entire range of photons, gravitational \\ waves, and particle astrophysics.\end{tabular} \\ \hline
+\multicolumn{3}{|c|}{\textbf{CubeSat Proposal Opportunities}} \\ \hline
+\multicolumn{1}{|c|}{\textbf{Name}} & \multicolumn{1}{c|}{\textbf{Solicitation Number}} & \multicolumn{1}{c|}{\textbf{Description}} \\ \hline
+Remote Sensing Theory for Earth Science & NNH14ZDA001N-RST & Remote sensing science to establish a theoretical basis for measuring Earth surface properties using reflected, emitted, and scattered electromagnetic radiation and to develop the methodologies and technical approaches to analyze and interpret such measurements lies at the heart of NASA’s mission. \\ \hline
+Heliophysics Technology and Instrument Development for Science & NNH13ZDA001N-HTIDS & The H-TIDeS program solicits proposals for investigations that are relevant to NASA's programs in Heliophysics. \\ \hline
+Astrophysics Research and Analysis Program & NNH13ZDA001N-APRA & The Astrophysics Research and Analysis Program (APRA) program solicits basic research proposals for investigations that are relevant to NASA's programs in astronomy and astrophysics and includes research over the entire range of photons, gravitational waves, and particle astrophysics. \\ \hline
+Smallsat Technology Partnership & NNA13ZUA001C & NASA has selected 13 university teams for collaborative projects to develop and demonstrate new technologies and capabilities and spur innovation in communication, navigation, propulsion, science instruments, and advanced manufacturing for small spacecraft. \\ \hline
+Human Exploration and Operations Mission Directorate & NNH14HEOMD001L & Proposed CubeSat investigations must address an aspect of science, technology development, education, or operations encompassed by NASA’s strategic goals and outcomes as identified in the NASA Strategic Plan. \\ \hline
+Spacecraft Operating Software System in Support of CubeSat Vault Electronics & NNL14518620Q & NASA/LARC has a requirement for Spacecraft Operating Software System in support of CubeSat Vault Electronics. \\ \hline
+Opportunity Notice to Participate in ITS Centennial Challenges Program as an Allied Organization for Small Spacecraft Challenges & NNH14STMD005L & Organizations may submit proposals for consideration as either Lead Allied Organization or Supporting Allied Organization for CubeSat based Centennial Challenge. \\ \hline
 \end{tabular}
+}
 \end{table}
 
 Further, NASA’s interest in the future of CubeSats is evidenced in its plans to host a CubeSat based Centennial Challenge competition in order to spur the advancement of propulsion and communication technologies for deep space applications. Primarily, the challenge is designed to develop innovative ways to return error free data from deep space without government assistance, and to demonstrate lunar orbital plane change from equatorial to polar \cite{solicitation}. This Centennial challenge will inevitably lead to technology and knowledge that will advance the field beyond its current state. NASAs investment in this event demonstrates the agency’s commitment to the field. 
 
 NASA is showing a great commitment to the use of CubeSats for rigorous scientific endeavors as demonstrated by the availability of funding opportunities and the development of a CubeSat Centennial Challenge. 
 
+\section{Appendix}
+
+%\begin{table}[h]
+%\caption{Abbreviated summary of CubeSat missions grouped by size, displaying launch date, processor used, and operating system used}
+%\label{list}
+%\resizebox{\textwidth}{!}{%
+%\begin{tabular}{|l|l|l|l|l|}
+%\hline
+%\textbf{Name of Satellite} & \textbf{Size} & \textbf{Launch Date} & \textbf{Processor} & \textbf{OS} \\ \hline
+\begin{center}
+\begin{longtable}{|l|l|l|l|l|}
+\caption{Abbreviated summary of CubeSat missions grouped by size, displaying launch date, processor used, and operating system used} 
+\label{list} \\
+
+\hline \multicolumn{1}{|c|}{\textbf{Name of Satellite}} & \multicolumn{1}{c|}{\textbf{Size}} & \multicolumn{1}{c|}{\textbf{Launch Date}} & \multicolumn{1}{c|}{\textbf{Processor}} & \multicolumn{1}{c|}{\textbf{OS}}\\ \hline 
+\endfirsthead
+
+\multicolumn{5}{c}%
+{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
+\hline \multicolumn{1}{|c|}{\textbf{Name of Satellite}} &
+\multicolumn{1}{c|}{\textbf{Size}} &
+\multicolumn{1}{c|}{\textbf{Launch Date}} &
+\multicolumn{1}{c|}{\textbf{Processor}} &
+\multicolumn{1}{c|}{\textbf{OS }} \\ \hline 
+\endhead
+
+\hline \multicolumn{5}{|r|}{{Continued on next page}} \\ \hline
+\endfoot
+
+\hline \hline
+\endlastfoot
+TUSat1 & 1U & 2003 & i80386 & DOS 3.0 \\ \hline
+CP-1 & 1U & 7/26/2006 & PIC18 & Not Supplied \\ \hline
+CP-2 & 1U & 7/26/2006 & PIC18 & Not Supplied \\ \hline
+MEROPE & 1U & 7/26/2006 & HCS12 & C \\ \hline
+CP-3 & 1U & 4/17/2007 & PIC18 & Not Supplied \\ \hline
+CP-4 & 1U & 4/17/2007 & PIC18 & Not Supplied \\ \hline
+MAST & 3x1U & 4/17/2007 & PIC18 & Not Supplied \\ \hline
+CP-6 & 1U & 5/19/2009 & PIC18 & Not Supplied \\ \hline
+Explorer-1 Prime 2 (HRBE) & 1U & 10/28/2011 & HCS12 & Not Supplied \\ \hline
+MCubed/COVE & 1U & 10/28/2011 & Stanp9G20 & Linux \\ \hline
+CP-5 & 1U & 9/13/2012 & PIC18 & Not Supplied \\ \hline
+PhoneSat v1a (Graham) & 1U & 4/21/2013 & HTC & Android 2.3.3 \\ \hline
+PhoneSat v1b (Bell) & 1U & 4/21/2013 & HTC & Android 2.3.3 \\ \hline
+PhoneSat v2.0 (Alexander) & 1U & 4/21/2013 & Samsung & Android 2.3.3 \\ \hline
+COPPER & 1U & 11/19/2013 & PIC24 & Not Supplied \\ \hline
+UAH/ChargerSat-1 & 1U & 11/19/2013 & ATxmega128A1U & Atmel Studio \\ \hline
+SwampSat & 1U & 11/19/2013 & TI MSP430 & Not Supplied \\ \hline
+KySat-2 & 1U & 11/19/2013 & SiLabs 8051 & Not Supplied \\ \hline
+Trailblazer & 1U & 11/19/2013 & Pumpkin & Salvo \\ \hline
+DragonSat-1 & 1U & 11/19/2013 & PIC33 & Salvo \\ \hline
+Lunar Orbiter/Lander CubeSat & 1U & 11/19/2013 & TI MSP430 & SPARK \\ \hline
+NPS-SCAT & 1U & 11/19/2013 & TI MSP430 & Salvo \\ \hline
+CP-8/IPEX & 1U & 12/6/2013 & AT91SAM9 & Linux \\ \hline
+MCubed/COVE 2 & 1U & 12/6/2013 & Stamp9G20 & Linux \\ \hline
+DICE & 2x1.5U & 10/28/2011 & TI MSP430 & Salvo \\ \hline
+FIREBIRD 1A & 2x1.5U & 12/6/2013 & PIC24 & Salvo \\ \hline
+FIREBIRD 1B & 2x1.5U & 12/6/2013 & PIC24 & Salvo \\ \hline
+PSAT & 2x1.5U & 2015 & basicStamp & basic \\ \hline
+BRICSat-P & 1.5U & 2015 & PIC33 & Salvo \\ \hline
+ION & 2U & 7/26/2006 & SH2 & SID \\ \hline
+PSSC-2 & 2U & 7/8/2011 & PIC18 & PIC Assembly \\ \hline
+CXBN & 2U & 9/13/2012 & TI MPS430 & Not Supplied \\ \hline
+LMRSat & 2U & 2014 & TI MPS430 & Salvo \\ \hline
+CP-9 & 2U & TBA & AT91SAM9 & Linux \\ \hline
+QuakeSat & 3U & 6/30/2003 & i80486 & Linux \\ \hline
+GeneSat-1 & 3U & 12/16/2006 & PIC & C++ \\ \hline
+RAX-1 & 3U & 11/19/2010 & TI MPS430 & Not Supplied \\ \hline
+RAX-2 & 3U & 10/28/2011 & TI MPS430 & Not Supplied \\ \hline
+CINEMA 1 & 3U & 9/13/2012 & PIC33 & Not Supplied \\ \hline
+CSSWE & 3U & 9/13/2012 & TI MPS430 & Salvo \\ \hline
+Aeneas & 3U & 9/13/2012 & PIC24 & Not Supplied \\ \hline
+ALL-STAR/THEIA & 3U & 4/18/2014 & AT32UC3A3256S & Not Supplied \\ \hline
+KickSat & 3U & 4/18/2014 & TI CC430 & Not Supplied \\ \hline
+SporeSat & 3U & 4/18/2014 & PIC32 & uC/OS-II \\ \hline
+INSPIRE & 3U & 2014 & AT91SAM9 & Not Supplied \\ \hline
+RACE & 3U & 2014 & LPC3250 & Linux \\ \hline
+RAVAN & 3U & 2015 & SiLabs 8051 & Not Supplied \\ \hline
+ARMADILLO & 3U & 2015 & LPC3250 & Linux \\ \hline
+USS Langley & 3U & 2015 & PIC33 & Salvo \\ \hline
+CP-10/EXOCUBE & 3U & 2015 & AT91SAM9 & Linux \\ \hline
+Bevo-2 & 3U & TBA & LPC3250 & Linux \\ \hline
+\end{longtable}
+\end{center}
 
 \bibliographystyle{aiaa}
 \bibliography{CubeSatReferences}
-
 \end{document}
