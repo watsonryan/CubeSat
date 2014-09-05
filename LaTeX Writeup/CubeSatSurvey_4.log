@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.5.24)  4 SEP 2014 23:18
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.5.24)  4 SEP 2014 23:40
 entering extended mode
 **CubeSatSurvey_4.tex
 ("C:\Users\Miranda\Documents\GitHub\CubeSat\LaTeX Writeup\CubeSatSurvey_4.tex"
@@ -229,71 +229,74 @@ tConfig.jpg>]
 <Bar_SizeYear.png, id=14, 685.8122pt x 497.60907pt>
 File: Bar_SizeYear.png Graphic file (type png)
  <use Bar_SizeYear.png>
-Package pdftex.def Info: Bar_SizeYear.png used on input line 69.
+Package pdftex.def Info: Bar_SizeYear.png used on input line 70.
 (pdftex.def)             Requested size: 352.31625pt x 253.54918pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bar_Classes.png, id=16, 685.8122pt x 497.60907pt>
+[3] <Bar_Classes.png, id=19, 685.8122pt x 497.60907pt>
 File: Bar_Classes.png Graphic file (type png)
  <use Bar_Classes.png>
-Package pdftex.def Info: Bar_Classes.png used on input line 78.
+Package pdftex.def Info: Bar_Classes.png used on input line 81.
 (pdftex.def)             Requested size: 352.31625pt x 253.54918pt.
- [3]
-<Pie_Processors.png, id=21, 693.792pt x 397.485pt>
-File: Pie_Processors.png Graphic file (type png)
- <use Pie_Processors.png>
-Package pdftex.def Info: Pie_Processors.png used on input line 89.
-(pdftex.def)             Requested size: 256.35751pt x 144.54pt.
-
-Overfull \hbox (21.48001pt too wide) in paragraph at lines 89--90
- [][] 
- []
-
-<Pie_PIC.png, id=23, 685.8122pt x 498.36188pt>
-File: Pie_PIC.png Graphic file (type png)
- <use Pie_PIC.png>
-Package pdftex.def Info: Pie_PIC.png used on input line 95.
-(pdftex.def)             Requested size: 200.52777pt x 144.54pt.
-
-Overfull \hbox (4.86665pt too wide) in paragraph at lines 87--98
- [][]  [] 
- []
-
-[4 <C:/Users/Miranda/Documents/GitHub/CubeSat/LaTeX Writeup/Bar_SizeYear.png> <C:/Users/Miranda/Documents/GitHub/CubeSat
-/LaTeX Writeup/Bar_Classes.png>] <Pie_OS.png, id=30, 685.8122pt x 497.60907pt>
-File: Pie_OS.png Graphic file (type png)
- <use Pie_OS.png>
-Package pdftex.def Info: Pie_OS.png used on input line 106.
-(pdftex.def)             Requested size: 352.31625pt x 253.54918pt.
- [5 <C:/Users/Miranda/Documents/GitHub/CubeSat/LaTeX Writeup/Pie_Processors.png> <C:/Users/Miranda/Documents/GitHub/Cube
-Sat/LaTeX Writeup/Pie_PIC.png> <C:/Users/Miranda/Documents/GitHub/CubeSat/LaTeX Writeup/Pie_OS.png>]
-<Military.jpg, id=40, 1927.2pt x 925.4575pt>
+ [4 <C:/Users/Miranda/Documents/GitHub/CubeSat/LaTeX Writeup/Bar_SizeYear.png> <C:/Users/Miranda/Documents/GitHub/CubeSa
+t/LaTeX Writeup/Bar_Classes.png>]
+<Military.jpg, id=26, 1927.2pt x 925.4575pt>
 File: Military.jpg Graphic file (type jpg)
  <use Military.jpg>
-Package pdftex.def Info: Military.jpg used on input line 135.
+Package pdftex.def Info: Military.jpg used on input line 105.
 (pdftex.def)             Requested size: 352.31625pt x 167.79611pt.
- <CivilianGovernment.jpg, id=42, 1927.2pt x 925.4575pt>
+ <CivilianGovernment.jpg, id=28, 1927.2pt x 925.4575pt>
 File: CivilianGovernment.jpg Graphic file (type jpg)
 
 <use CivilianGovernment.jpg>
-Package pdftex.def Info: CivilianGovernment.jpg used on input line 142.
+Package pdftex.def Info: CivilianGovernment.jpg used on input line 112.
 (pdftex.def)             Requested size: 352.31625pt x 167.79611pt.
- <Private.jpg, id=44, 1927.2pt x 925.4575pt>
+ <Private.jpg, id=30, 1927.2pt x 925.4575pt>
 File: Private.jpg Graphic file (type jpg)
  <use Private.jpg>
-Package pdftex.def Info: Private.jpg used on input line 149.
+Package pdftex.def Info: Private.jpg used on input line 119.
 (pdftex.def)             Requested size: 352.31625pt x 167.79611pt.
 
-<University.jpg, id=46, 1927.2pt x 925.4575pt>
+<University.jpg, id=32, 1927.2pt x 925.4575pt>
 File: University.jpg Graphic file (type jpg)
  <use University.jpg>
-Package pdftex.def Info: University.jpg used on input line 156.
+Package pdftex.def Info: University.jpg used on input line 126.
 (pdftex.def)             Requested size: 352.31625pt x 167.79611pt.
- [6 <C:/Users/Miranda/Documents/GitHub/CubeSat/LaTeX Writeup/Military.jpg>] [7 <C:/Users/Miranda/Documents/GitHub/CubeSa
-t/LaTeX Writeup/CivilianGovernment.jpg> <C:/Users/Miranda/Documents/GitHub/CubeSat/LaTeX Writeup/Private.jpg> <C:/Users/
-Miranda/Documents/GitHub/CubeSat/LaTeX Writeup/University.jpg>]
+ [5 <C:/Users/Miranda/Documents/GitHub/CubeSat/LaTeX Writeup/Military.jpg> <C:/Users/Miranda/Documents/GitHub/CubeSat/La
+TeX Writeup/CivilianGovernment.jpg>]
+<Pie_Processors.png, id=39, 693.792pt x 397.485pt>
+File: Pie_Processors.png Graphic file (type png)
+ <use Pie_Processors.png>
+Package pdftex.def Info: Pie_Processors.png used on input line 139.
+(pdftex.def)             Requested size: 256.35751pt x 144.54pt.
+
+Overfull \hbox (21.48001pt too wide) in paragraph at lines 139--140
+ [][] 
+ []
+
+<Pie_PIC.png, id=41, 685.8122pt x 498.36188pt>
+File: Pie_PIC.png Graphic file (type png)
+ <use Pie_PIC.png>
+Package pdftex.def Info: Pie_PIC.png used on input line 145.
+(pdftex.def)             Requested size: 200.52777pt x 144.54pt.
+
+Overfull \hbox (4.86665pt too wide) in paragraph at lines 137--148
+ [][]  [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6 <C:/Users/Miranda/Documents/GitHub/CubeSat/LaTeX Writeup/Private.jpg> <C:/Users/Miranda/Documents/GitHub/CubeSat/LaTe
+X Writeup/University.jpg>] <Pie_OS.png, id=48, 685.8122pt x 497.60907pt>
+File: Pie_OS.png Graphic file (type png)
+ <use Pie_OS.png>
+Package pdftex.def Info: Pie_OS.png used on input line 156.
+(pdftex.def)             Requested size: 352.31625pt x 253.54918pt.
+ [7 <C:/Users/Miranda/Documents/GitHub/CubeSat/LaTeX Writeup/Pie_Processors.png> <C:/Users/Miranda/Documents/GitHub/Cube
+Sat/LaTeX Writeup/Pie_PIC.png> <C:/Users/Miranda/Documents/GitHub/CubeSat/LaTeX Writeup/Pie_OS.png>]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
@@ -316,13 +319,13 @@ Here is how much of TeX's memory you used:
  6713 multiletter control sequences out of 15000+200000
  10710 words of font info for 38 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 36i,14n,38p,1068b,435s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,14n,38p,1262b,435s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmti12.pfb>
-Output written on CubeSatSurvey_4.pdf (9 pages, 581106 bytes).
+Output written on CubeSatSurvey_4.pdf (9 pages, 580728 bytes).
 PDF statistics:
  86 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

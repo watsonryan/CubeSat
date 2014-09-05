@@ -41,9 +41,10 @@ The standards developed by Cal Poly have resulted in a significant increase in t
 To determine possible options for a standardized NASA IV\&V software, a comprehensive survey was conducted on past, present, and future CubeSat missions.  This survey initially consisted of all CubeSat missions able to be found online and totaled slightly over 250 missions.  For this particular report, it was decided that the focus would be on domestic missions which narrowed the search to approximately 150 missions, some of which had been launched while others were still only proposed concepts.  This list was consolidated once more to focus on already launched missions as well as missions with launch services confirmed in upcoming years.  
 As a result, a comprehensive list of approximately 115 CubeSats has been developed.  
 
-To gather information, the first step involved creating a comprehensive list of mission details.  This information can be categorized as shown in Table \ref{summary}.  A first pass of obtaining data was accomplished by thoroughly searching the internet, but a significant amount of data was still incomplete.  As a second pass, the project managers of each mission were emailed and asked specifically for information regarding data of potential interest to NASA IV\&V as well as any other applicable information or further references.  This helped fill in a significant amount of missing data which was used to create a spreadsheet of all collected data.  This spreadsheet will be provided electronically upon delivery of this report and includes all data collected in the categories described in Table \ref{summary}.
+To gather information, the first step involved creating a list of desired mission details.  This information can be categorized as shown in Table \ref{summary}.  A first pass of obtaining data was accomplished by thoroughly searching the internet, although a significant amount of data was left incomplete.  As a second pass, the project managers of each mission were emailed and asked specifically for information regarding data of potential interest to NASA IV\&V as well as any other applicable information or further references.  This helped fill in a significant amount of missing data which was used to create a spreadsheet of all collected data.  This spreadsheet will be provided electronically upon delivery of this report and includes all data collected in the categories described in Table \ref{summary}.
 
 It should be noted that despite all efforts made in this project, the results of this survey only provide estimates used to identify trends in the presented data.  For example, many of the surveyed missions were conducted by universities with limited budgets while others were sponsored by private companies or government agencies with higher budgets, largely limiting the type of hardware chosen for the mission.  This should be considered when analyzing numerical data obtained from this survey and will hopefully be made prominent through the discussion of results. 
+
 \begin{table}[h]
 \centering
 \caption{Summary of Data Collected for CubeSat Survey}
@@ -71,7 +72,9 @@ A market assessment conducted by SpaceWorks Enterprises, Inc. in 2014 showed tha
 \label{peryear}
 \end{figure}
 
-Figure \ref{classperyear} shows the number of U.S. CubeSats launched per year based on class (i.e. private, government, university, military, etc.).  It is obvious that a majority of launches have been for university missions and educational purposes.  However, there has been a significant increase seen in government missions as well as privately funded missions.  
+As mentioned above, is important to note that due to the way in which data for this survey was compiled, we were not able to gather all of the information for every CubeSat mission launched. This is primarily due to principle investigators of individual CubeSat missions not responding to our requests for information.  Their lack of response could be due to a myriad of reasons; it is possible that the principle investigator infrequently check their email inbox, or that they would simply like to keep their information private. 
+
+Since our survey data set does not encapsulate the total CubeSat data set, we need to ensure that our data properly represents the total data set. This needs to be done so that wide sweeping inferences are not made from skewed data. Figure \ref{classperyear} shows the number of U.S. CubeSats launched per year based on class (i.e. private, government, university, military, etc.).  From this graph, it is evident that a majority of launches have been for university missions and educational purposes.  However, there has been a significant increase seen in government missions as well as privately funded missions.  
 
 \begin{figure}[t!]
 \centering
@@ -80,40 +83,7 @@ Figure \ref{classperyear} shows the number of U.S. CubeSats launched per year ba
 \label{classperyear}
 \end{figure}
 
-When considering verification and validation software, it is of most importance to determine the processor and operating system used for as many CubeSat missions as possible.  This will provide insight into which processors are most effective and capable of ensuring successful mission operations.  Based on the 55 missions where processor data was attainable, almost 38\% of these missions utilized PIC processors.  Of these processors, 52\% used the PIC18.  These results are summarized in Figure \ref{processors}.  In addition, it should be noted that of these processors, Pumpkin currently provides Pluggable Processor Modules (PPM) available with their CubeSat Kit which is capable of incorporating the following processors with the flight module:  SiLabs C805, PIC24, PIC33, and TI MSP430.  
-
-\begin{figure}[h!]
-    \centering
-    \begin{subfigure}[t]{0.5\textwidth}
-        \centering
-        \frame{\includegraphics[height=2in,trim=0.1in 0.1in 0.1in 0.1in,clip]{Pie_Processors}}
-        \caption{Summary of processors used (Total: 55)}
-    \end{subfigure}%
-    ~ 
-    \begin{subfigure}[t]{0.5\textwidth}
-        \centering
-        \frame{\includegraphics[height=2in,trim=0.1in 0.1in 0.1in 0.1in,clip]{Pie_PIC}}
-        \caption{Breakdown of PIC processors used (Total: 21)}
-    \end{subfigure}
-    \caption{Summary of processors used in CubeSats}
-		\label{processors}
-\end{figure}
-
-As far as operating systems are concerned, Salvo and Linux were the two most commonly used in the CubeSat missions surveyed.  Salvo is available with the purchase of any Pumpkin PPM and is included with the purchase of a Pumpkin CubeSat Kit.
-
-\begin{figure}[ht!]
-\centering
-\frame{\includegraphics[width=0.75\textwidth,trim=0.1in 0.1in 0.1in 0.1in,clip]{Pie_OS}}
-\caption{Results of survey showing the percentage of OS used in CubeSat missions (Total: 33)}
-\label{OS}
-\end{figure}
-
-\section{Verification of Data}
-Due to the way in which data for this survey was compiled, we were not able to gather all of the information for every CubeSat mission launched. This is primarily due to principle investigators of individual CubeSat missions not responding to our requests for information.  Their lack of response could be due to a myriad of reasons; it is possible that the principle investigator infrequently check their email inbox, or that they would simply like to keep their information private. 
-
-Since our survey data set does not encapsulate the total CubeSat data set, we need to ensure that our data properly represents the total data set. This needs to be done so that wide sweeping inferences are not made from skewed data. 
-
-To analyze the data sets, both the sample data set and the total data set were broken down per year by class. This was done so that a yearly comparison between the two data sets of each class could be conducted. Once the data was separated per class by year, the sample data set and the total data sets were plotted on the same graph so that the correlation, or lack thereof, could be seen. The correlation between the sample data set and the total data set is summarized in Table \ref{correlation} and can be seen in Figures \ref{military} through \ref{university}. 
+To verify this data, both the sample data set and the total data set were broken down per year by class. This was done so that a yearly comparison between the two data sets of each class could be conducted. Once the data was separated per class by year, the sample data set and the total data sets were plotted on the same graph so that the correlation, or lack thereof, could be seen. The correlation between the sample data set and the total data set is summarized in Table \ref{correlation} and can be seen in Figures \ref{military} through \ref{university}. 
 
 \begin{table}[h]
 \centering
@@ -158,7 +128,35 @@ University & 0.2895 \\ \hline
 \label{university}
 \end{figure}
 
-From Table \ref{correlation}, it can be seen that the sub-set of data that was compiled for this report is not a great approximation of the total data set.  For this reason wide sweeping generalizations cannot be made from the analysis of the data. For the purposes of IV\&V, we decided to do a separate analysis of the sub-set of our data that is comprised of only NASA built CubeSat missions. 
+From Table \ref{correlation}, it can be seen that the subset of data compiled for this report is not a great approximation of the total data set.  For this reason wide sweeping generalizations cannot be made from the analysis of the data. For the purposes of IV\&V, we decided to do a separate analysis of the sub-set of our data that is comprised of only NASA built CubeSat missions. 
+
+Despite the low correlation between data, verification and validation software was still considered.  For this report, it is assumed that it is most important to IV\&V to determine the processor and operating system used for as many CubeSat missions as possible.  This will provide insight into which processors are most effective and capable of ensuring successful mission operations.  Based on the 55 missions where processor data was attainable, almost 40\% of these missions utilized PIC processors.  Of these processors, 52\% used the PIC18.  These results are summarized in Figure \ref{processors}.  In addition, it should be noted that of these processors, Pumpkin currently provides Pluggable Processor Modules (PPM) available with their CubeSat Kit which is capable of incorporating the following processors with the flight module:  SiLabs C805, PIC24, PIC33, and TI MSP430.  Again, many factors were not accounted for in this analysis (i.e. budget, development time, cost of materials, etc.) and these could have played a key role in determining the processors chosen for each mission.  Obviously missions with larger budgets will be able to afford higher quality components compared to missions with limited budgets.
+
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \frame{\includegraphics[height=2in,trim=0.1in 0.1in 0.1in 0.1in,clip]{Pie_Processors}}
+        \caption{Summary of processors used (Total: 55)}
+    \end{subfigure}%
+    ~ 
+    \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \frame{\includegraphics[height=2in,trim=0.1in 0.1in 0.1in 0.1in,clip]{Pie_PIC}}
+        \caption{Breakdown of PIC processors used (Total: 21)}
+    \end{subfigure}
+    \caption{Summary of processors used in CubeSats}
+		\label{processors}
+\end{figure}
+
+As far as operating systems are concerned, Salvo and Linux were the two most commonly used in the CubeSat missions surveyed.  Salvo is available with the purchase of any Pumpkin PPM and is included with the purchase of a Pumpkin CubeSat Kit.  Most processors provide various options for programming and therefore no concrete conclusion can be made as to which operating system should be used by IV\&V.
+
+\begin{figure}[ht!]
+\centering
+\frame{\includegraphics[width=0.75\textwidth,trim=0.1in 0.1in 0.1in 0.1in,clip]{Pie_OS}}
+\caption{Results of survey showing the percentage of OS used in CubeSat missions (Total: 33)}
+\label{OS}
+\end{figure}
 
 \section{Discussion of Results}
 Based on the information collected from this survey, a majority of CubeSat missions have used PIC processors (specifically PIC18) with either Linux or Salvo operating systems.  The availability of Pumpkin CubeSat kits is likely a major contributor to these results, although this was not confirmed in this survey.  It is our recommendation that NASA IV\&V use their previous knowledge and experience with processors and operating systems to create their own verification and validation software.  Some aspects to consider are cost, user interface, and power requirements, each which will be determined by the nature of the mission.  However, it should be noted that the results of this survey lead us to believe that successful missions can be achieved through the use of PIC processors and Linux or Salvo operating systems.  As a reference, processor specifications are compared and summarized in Table \ref{procspecs}.  Data sheets for these processors will be included with the electronic submission of this report.
